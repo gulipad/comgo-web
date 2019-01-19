@@ -2,7 +2,7 @@
   <div>
     <!-- <navbar></navbar> -->
     <hero></hero>
-    <why id="purpose"></why>
+    <why id="why"></why>
     <horizontal-divider></horizontal-divider>  
     <participants></participants>
     <horizontal-divider></horizontal-divider>  
@@ -25,7 +25,6 @@ import Hero from '~/components/Hero.vue'
 import Participants from '~/components/Participants.vue'
 import Why from '~/components/Why.vue'
 import Action from '~/components/Action.vue'
-import Purpose from '~/components/Purpose.vue'
 import HorizontalDivider from '~/components/HorizontalDivider.vue'
 import What from '~/components/What.vue'
 import Projects from '~/components/Projects.vue'
@@ -38,7 +37,6 @@ export default {
     Navbar,
     Hero,
     Participants,
-    Purpose,
     Why,
     Action,
     HorizontalDivider,

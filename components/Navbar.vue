@@ -11,7 +11,7 @@
 				<div class="navbar-menu">
 					<div class="navbar-end">
 						<div class="navbar-item main-item">
-							<a href="/#purpose"
+							<a href="/#why"
                 class="is-link has-text-grey"
                 v-smooth-scroll="{duration: 2000, offset: 0}">Porqué</a>
 						</div>

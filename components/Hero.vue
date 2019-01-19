@@ -10,6 +10,7 @@
             <div class="content">
               <h2 class="title-serif is-size-2">Impacto social. <br>
                 <vue-typer
+                class="text modifier typer-color"
                 :text='["Transparente.","Eficiente.", "Responsable."]'
                 :repeat='1'
                 erase-style='backspace'
@@ -18,12 +19,12 @@
               <p class="hello has-text-grey is-size-4 has-text-weight-light"> Generamos confianza en el impacto social que ya estás creando.</p>
             </div>
             <div data-aos="fade-in">
-                <div class="button is-medium is-primary hero-button">
-                  Aloja un Proyecto
-                </div>
-                <div class="button is-medium hero-button">
-                  Dona Responsablemente
-                </div>
+              <div class="button is-medium is-primary hero-button">
+                Aloja un Proyecto
+              </div>
+              <div class="button is-medium hero-button">
+                Dona Responsablemente
+              </div>
             </div>
           </div>
           <div class="column is-half is-hidden-mobile"> 
@@ -51,7 +52,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 
 .center-hack {
   margin-top: -1.5rem;
@@ -61,8 +62,8 @@ export default {
   font-family: 'Roboto Mono', monospace;
 }
 
-.vue-typer .custom.char.typed {
-  color: #363636;
+.vue-typer .custom.char {
+  color: #363636 ;
 }
 
 .hero-button {

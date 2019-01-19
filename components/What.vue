@@ -4,7 +4,7 @@
       <div data-aos="fade-in" class="column has-text-centered">
         <div class="content">
           <h2 class="is-title is-size-2">Un entorno digital para el <span class="is-text-highlighted">bien común</span></h2>
-          <p class="is-size-4 has-text-weight-light"><span class="shadow is-turquoise">ComGo</span> es una plataforma de gestión de <span class="shadow is-turquoise">impacto social</span> construida sobre Blockcahin de IBM.  Habría que poner un poquito más de qué funcionalidades tiene y por qué es <span class="shadow is-turquoise">mejor</span> pero sin pasarse, si no la gente no lee. Como mucho tres líneas, si no llega a cuatro mucho mejor.</p>
+          <p class="is-size-4 has-text-weight-light"><span class="shadow is-turquoise">ComGo</span> es una plataforma de gestión de <span class="shadow is-turquoise">impacto social</span> construida sobre Blockchain de IBM.</p>
         </div>
       </div>
       <br>

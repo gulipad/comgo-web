@@ -4,7 +4,7 @@
       <div data-aos="fade-in" class="column has-text-centered">
         <div class="content">
           <h2 class="title-serif is-size-2">Por una ayuda <span class="is-text-highlighted">transparente</span></h2>
-          <p class="is-size-4 has-text-weight-light">En este párrafo hay que <span class="shadow is-turquoise">explicar</span> muy bien el por qué del proyecto. La <span class="shadow is-turquoise">misión</span>. No es necesario mencionar nada de blockchain todavía. Sólo que se entienda el corazón del proyecto. Mejor que no sea <span class="shadow is-turquoise">demasiado</span> largo, tres o cuatro líneas basta.</p>
+          <p class="is-size-4 has-text-weight-light"><span class="shadow is-turquoise">Soñamos</span> con que las ONGs y organizaciones sociales puedan mostrar la ejemplaridad con la que trabajan y comunicar el <span class="shadow is-turquoise">impacto social</span> que generan cada día. Porque así generan más <span class="shadow is-turquoise">confianza</span> y más colaboraciones para cumplir su misión. Porque compartimos su voluntad de un mundo mejor, más justo y más solidario.</p>
         </div>
       </div>
       <br>
@@ -16,7 +16,7 @@
               <div class="is-size-2">🔍</div>
               <h3 class="is-card-title has-text-dark has-text-weight-normal is-size-4">Transparencia</h3>
               <br>
-              <div class="title is-size-5 has-text-weight-light">Un poco de información sobre por qué es transparente. Muy breve. Tres líneas máximo.</div>
+              <div class="title is-size-5 has-text-weight-light">ComGo consigue que donantes y colaboradores puedan participar del día a día de los proyectos en los que participan.</div>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@
               <div class="is-size-2">👐</div>
               <h3 class="is-card-title has-text-dark has-text-weight-normal is-size-4">Responsabilidad</h3>
               <br>
-              <div class="title is-size-5 has-text-weight-light">Un poco de información sobre por qué es responsable. Muy breve. Tres líneas máximo.</div>
+              <div class="title is-size-5 has-text-weight-light">Nuestra plataforma facilita la donación responsable ofreciendo la información necesaria y trazabilidad de los proyectos.</div>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@
               <div class="is-size-2">📊</div>
               <h3 class="is-card-title has-text-dark has-text-weight-normal is-size-4">Eficiencia</h3>
               <br>
-              <div class="title is-size-5 has-text-weight-light">Un poco de información sobre por qué es eficiente. Muy breve. Tres líneas máximo.</div>
+              <div class="title is-size-5 has-text-weight-light">En ComGo soñamos con un sector social que optimice al 100% los recursos para cumplir la misión de un mundo mejor.</div>
             </div>
           </div>
         </div>

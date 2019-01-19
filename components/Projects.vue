@@ -10,7 +10,7 @@
         </div>
         <div data-aos="fade-in" class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light"> Si eres un <span class="shadow is-turquoise">donante privado</span>, a través de ComGo, podrás hace un seguimiento de tus aportaciones, y conocer su impacto social real. Si eres una <span class="shadow is-turquoise">organización social</span>, sube tus proyectos a la plataforma para ofrecer una campaña transparente.</p>
+            <p class="is-size-5 has-text-weight-light"> Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class="shadow is-turquoise">impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class="shadow is-turquoise">blockchain</span> de trazabilidad del impacto social .</p>
           </div>
         </div>
       </div>
