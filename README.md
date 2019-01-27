@@ -1,6 +1,6 @@
-# hello-leia-web
+# ComGo Website
 
-> Revamp of Hello Leia Website
+> Revamp of the ComGo Website
 
 ## Build Setup
 
