@@ -8,22 +8,22 @@
         <div class="columns is-vcentered">
           <div class="column is-half">
             <div class="content">
-              <h2 class="title-serif is-size-2">Impacto social. <br>
+              <h2 class="title-serif is-size-2">{{$t('hero.title')}}<br>
                 <vue-typer
                 class="text modifier typer-color"
-                :text='["Transparente.","Eficiente.", "Responsable."]'
+                :text= typerData
                 :repeat='1'
                 erase-style='backspace'
                 :erase-delay= '50'
                 ></vue-typer></h2>
-              <p class="hello has-text-grey is-size-4 has-text-weight-light"> Generamos confianza en el impacto social que ya estás creando.</p>
+              <p class="hello has-text-grey is-size-4 has-text-weight-light"> {{$t('hero.subtitle')}}</p>
             </div>
             <div data-aos="fade-in">
               <div class="button is-medium is-primary hero-button">
-                Aloja un Proyecto
+                {{$t('hero.primary-button')}}
               </div>
               <div class="button is-medium hero-button">
-                Dona Responsablemente
+                {{$t('hero.secondary-button')}}
               </div>
             </div>
           </div>
@@ -48,6 +48,11 @@ export default {
   components: {
     Navbar,
     HorizontalDivider
+  },
+  data () {
+    return {
+      typerData: this.$t('hero.typerData')
+    }
   }
 }
 </script>

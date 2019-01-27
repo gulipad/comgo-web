@@ -29,6 +29,7 @@ module.exports = {
   ** Build configuration
   */
   router: {
+    middleware: 'i18n',   // middleware all pages of the application
     scrollBehavior(to, from, savedPosition) {
       if (savedPosition) {
         return savedPosition
@@ -47,6 +48,7 @@ module.exports = {
     }
   },
   build: {
+    vendor: ['vue-i18n'], // webpack vue-i18n.bundle.js
     /*
     ** Run ESLint on save
     */
@@ -85,11 +87,14 @@ module.exports = {
       id: 'UA-96149906-1'
     }]
   ],
-
   plugins: [
     {src: '~/plugins/vue-typer', ssr: false},
     {src: '~/plugins/vue-smooth-scroll', ssr: false},
-    {src: '~/plugins/aos', ssr: false}
-  ]
+    {src: '~/plugins/aos', ssr: false},
+    {src: '~/plugins/i18n'}
+  ],
+  generate: {
+    routes: ['/es', '/en']
+  }
 
 }

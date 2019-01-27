@@ -1,0 +1,91 @@
+{
+	"navbar": {
+		"why": "Porqué",
+		"projects": "Proyectos",
+		"how": "Cómo",
+		"collaborate": "Colabora",
+		"contact": "Escríbenos"
+	},
+	"hero": {
+		"title": "Impacto social.",
+		"typerData": ["Transparente.","Eficiente.", "Responsable."],
+		"subtitle": "Generamos confianza en el impacto social que ya estás creando.",
+		"primary-button": "Aloja un Proyecto",
+		"secondary-button": "Dona Responsablemente"
+
+	},
+	"why": {
+		"title": "Por una ayuda <span class='is-text-highlighted'>transparente</span>",
+		"paragraph": "<span class='shadow is-turquoise'>Soñamos</span> con que las ONGs y organizaciones sociales puedan mostrar la ejemplaridad con la que trabajan y comunicar el <span class='shadow is-turquoise'>impacto social</span> que generan cada día. Porque así generan más <span class='shadow is-turquoise'>confianza</span> y más colaboraciones para cumplir su misión. Porque compartimos su voluntad de un mundo mejor, más justo y más solidario.",
+		"transparency": {
+			"title": "Transparencia",
+			"paragraph": "ComGo consigue que donantes y colaboradores puedan participar del día a día de los proyectos en los que participan."
+		},
+		"responsibility": {
+			"title": "Responsibilidad",
+			"paragraph": "Nuestra plataforma facilita la donación responsable ofreciendo la información necesaria y trazabilidad de los proyectos."
+		},
+		"efficiency": {
+			"title": "Eficiencia",
+			"paragraph": "En ComGo soñamos con un sector social que optimice al 100% los recursos para cumplir la misión de un mundo mejor."
+		}
+
+	},
+	"projects": {
+		"title": "Proyectos",
+		"subtitle": "La primera plataforma <span class='shadow is-turquoise'>Blockchain</span> de gestión de proyectos solidarios.",
+		"paragraph": "Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class='shadow is-turquoise'>impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class='shadow is-turquoise'>blockchain</span> de trazabilidad del impacto social ."
+	},
+	"what": {
+		"title": "Un entorno digital para el <span class='is-text-highlighted'>bien común</span>",
+		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> es una plataforma de gestión de <span class='shadow is-turquoise'>impacto social</span> construida sobre Blockchain de IBM.",
+		"management": {
+			"title": "Gestión de proyectos sociales",
+			"paragraph": "Un entorno digital para que organizaciones sociales gestionen sus proyectos de forma transparente y eficiente"
+		},
+		"measurement": {
+			"title": "Medición de impacto",
+			"paragraph": "Para que cada donante pueda conocer en todo momento el impacto real de sus aportaciones"
+		},
+		"auditing": {
+			"title": "Auditoría transparente",
+			"paragraph": "Un entorno de confianza, donde cualquiera puede auditar el movimiento de donaciones en la organización"
+		}
+	},
+	"action": {
+		"title": "Una plataforma para <span class='is-text-highlighted'>todos</span>",
+		"paragraph": "Queremos cambiar con <span class='shadow is-turquoise'>blockchain</span> la manera en la que se hacen y mueven las <span class='shadow is-turquoise'>donaciones.</span> Descubre cómo en nuestro whitepaper.",
+		"button": "Descarga el whitepaper",
+		"donations": {
+			"title": "Donantes",
+			"subtitle": "Abierto para todos",
+			"paragraph": "Conoce el impacto real de tus donaciones y haz seguimiento de los avances de los proyectos que apoyas.",
+			"button": "Regístrate"
+		},
+		"corporate": {
+			"title": "Donantes corporativos",
+			"subtitle": "Empresas constituidas",
+			"paragraph": "Suma tu empresa a la transparencia. ComGo ofrece a empresas una nueva forma de entender RSC.",
+			"button": "Escríbenos"
+		},
+		"ngos": {
+			"title": "Organizaciones sociales",
+			"subtitle": "Sin ánimo de lucro y constituidas",
+			"paragraph": "En ComGO hemos creado una herramienta para dotar a ONGs de transparecia, eficiencia e impacto.",
+			"button": "Aloja tu proyecto"
+		}
+	},
+	"contact": {
+		"title": "Escríbenos",
+		"subtitle": "Nos gusta <span class='shadow is-turquoise'>escucharte</span>. ¿Ideas?¿Sugerencias? <br><br> Sea cual sea tu duda, estamos aquí para <span class='shadow is-turquoise'>ayudar</span>.",
+		"form": {
+			"name": "Nombre",
+			"name-placeholder": "Nombre y apellidos",
+			"email": "Email",
+			"email-placeholder": "Correo electrónico",
+			"message": "Mensaje",
+			"message-placeholder": "Tu mensaje. No te quedes con dudas.",
+			"button": "Enviar"
+		}
+	}	
+}

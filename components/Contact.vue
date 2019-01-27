@@ -4,35 +4,35 @@
       <div class="columns is-spaced">
         <div data-aos="fade-in" class="column is-two-fifths">
           <div class="content">
-            <h2 class="title-mono is-size-1">Escríbenos</h2>
-            <p class="is-size-5 has-text-weight-light has-text-grey">Nos gusta <span class="shadow is-turquoise">escucharte</span>. ¿Ideas?¿Sugerencias?</p>
-            <p class="is-size-5 has-text-weight-light has-text-grey">Sea cual sea tu duda, estamos aquí para <span class="shadow is-turquoise">ayudar</span>.</p>
+            <h2 class="title-mono is-size-1">{{$t('contact.title')}}</h2>
+            <p class="is-size-5 has-text-weight-light has-text-grey"
+            v-html="this.$t('contact.subtitle')"></p>
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
           <form id="contact-form" class="contact-form" action="https://formspree.io/helloleiaai@gmail.com"
                 method="POST">
             <div class="field">
-              <label class="label">Nombre</label>
+              <label class="label">{{$t('contact.form.name')}}</label>
               <div class="control">
-                <input class="input" type="text" name="name" placeholder="Nombre y apellidos" required="true">
+                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true">
               </div>
             </div>
             <div class="field">
-              <label class="label">Email</label>
+              <label class="label">{{$t('contact.form.email')}}</label>
               <div class="control">
-                <input class="input" type="email" name="_replyto" placeholder="Correo electrónico" required="true" value="">
+                <input class="input" type="email" name="_replyto" v-bind:placeholder="this.$t('contact.form.email-placeholder')" required="true" value="">
               </div>
             </div>
             <div class="field">
-              <label class="label">Mensaje</label>
+              <label class="label">{{$t('contact.form.message')}}</label>
               <div class="control">
-                <textarea class="textarea" name="_message" maxlength="500" required="true" placeholder="Tu mensaje. No te quedes con dudas."></textarea>
+                <textarea class="textarea" name="_message" maxlength="500" required="true" v-bind:placeholder="this.$t('contact.form.message-placeholder')"></textarea>
               </div>
             </div>
             <div class="field">
               <div class="control">
-                <button class="button is-medium is-primary" type="submit">Enviar</button>
+                <button class="button is-medium is-primary" type="submit">{{$t('contact.form.button')}}</button>
                 <input type="text" name="_gotcha" style="display:none" />
               </div>
             </div>

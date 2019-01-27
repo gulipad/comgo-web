@@ -4,13 +4,15 @@
       <div class="columns is-spaced">
         <div data-aos="fade-in" class="column is-one-third">
           <div class="content">
-            <h2 class="title-serif is-size-1">Proyectos</h2>
-            <p class="is-size-5 has-text-weight-light">La primera plataforma <span class="shadow is-turquoise">Blockchain</span> de gestión de proyectos solidarios.</p>
+            <h2 class="title-serif is-size-1">{{$t('projects.title')}}</h2>
+            <p class="is-size-5 has-text-weight-light"
+            v-html="this.$t('projects.subtitle')"></p>
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light"> Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class="shadow is-turquoise">impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class="shadow is-turquoise">blockchain</span> de trazabilidad del impacto social .</p>
+            <p class="is-size-5 has-text-weight-light"
+            v-html="this.$t('projects.paragraph')"></p>
           </div>
         </div>
       </div>

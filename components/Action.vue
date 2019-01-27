@@ -4,15 +4,20 @@
       <div class="columns is-spaced">
         <div data-aos="fade-in" class="column is-one-third">
           <div class="content">
-            <h2 class="title-mono is-size-1">Una plataforma para <span class="is-text-highlighted">todos</span></h2>
+            <h2 class="title-mono is-size-1"
+            v-html="this.$t('action.title')"></h2>
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light"> Queremos cambiar con <span class="shadow is-turquoise">blockchain</span> la manera en la que se hacen y mueven las <span class="shadow is-turquoise">donaciones.</span>Descubre cómo en nuestro whitepaper.</p>
+            <p class="is-size-5 has-text-weight-light"
+            v-html="this.$t('action.paragraph')"></p>
           </div>
           <div class="button is-medium is-primary hero-button">
-            Descarga el whitepaper
+            <a href="/#action"
+            class="is-link">  
+            {{$t('action.button')}}
+            </a>
           </div>
         </div>
       </div>
@@ -26,15 +31,18 @@
                     <span class="is-size-2">😇</span>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">Donantes</p>
-                    <p class="subtitle is-6">Abierto para todos</p>
+                    <p class="title is-4">{{$t('action.donations.title')}}</p>
+                    <p class="subtitle is-6">{{$t('action.donations.subtitle')}}</p>
                   </div>
                 </div>
                 <div class="content">
-                  Conoce el impacto real de tus donaciones y haz seguimiento de los avances de los proyectos que apoyas.
+                  {{$t('action.donations.paragraph')}}
                 </div>
                 <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  Regístrate
+                  <a href="/"
+                  class="is-link">  
+                  {{$t('action.donations.button')}}
+                  </a>
                 </div>
               </div>
             </div>
@@ -49,15 +57,19 @@
                     <span class="is-size-2">👩‍💼</span>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">Donantes corporativos</p>
-                    <p class="subtitle is-6">Empresas constituidas</p>
+                    <p class="title is-4">{{$t('action.corporate.title')}}</p>
+                    <p class="subtitle is-6">{{$t('action.corporate.subtitle')}}</p>
                   </div>
                 </div>
                 <div class="content">
-                  Suma tu empresa a la transparencia. ComGo ofrece a empresas una nueva forma de entender RSC.
+                  {{$t('action.corporate.paragraph')}}
                 </div>
                 <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  Escríbenos
+                  <a href="/#contact"
+                  v-smooth-scroll="{duration: 2000, offset: 0}"
+                  class="is-link">  
+                  {{$t('action.corporate.button')}}
+                  </a>
                 </div>
               </div>
             </div>
@@ -72,15 +84,18 @@
                     <span class="is-size-2">🤲</span>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4">Organizaciones sociales</p>
-                    <p class="subtitle is-6">Sin ánimo de lucro y constituidas </p>
+                    <p class="title is-4">{{$t('action.ngos.title')}}</p>
+                    <p class="subtitle is-6">{{$t('action.ngos.subtitle')}}</p>
                   </div>
                 </div>
                 <div class="content">
-                  En ComGO hemos creado una herramienta para dotar a ONGs de transparecia, eficiencia e impacto.
+                  {{$t('action.ngos.paragraph')}}
                 </div>
                 <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  Aloja tu proyecto
+                  <a href="/"
+                  class="is-link">  
+                  {{$t('action.ngos.button')}}
+                  </a>
                 </div>
               </div>
             </div>
@@ -92,6 +107,10 @@
 </template>
 
 <style scoped>
+
+  .button a {
+    color: inherit;
+  }
   
   .title-mono {
     font-family: 'Roboto Mono', monospace;

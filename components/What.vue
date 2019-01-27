@@ -3,8 +3,10 @@
     <div class="container">
       <div data-aos="fade-in" class="column has-text-centered">
         <div class="content">
-          <h2 class="is-title is-size-2">Un entorno digital para el <span class="is-text-highlighted">bien común</span></h2>
-          <p class="is-size-4 has-text-weight-light"><span class="shadow is-turquoise">ComGo</span> es una plataforma de gestión de <span class="shadow is-turquoise">impacto social</span> construida sobre Blockchain de IBM.</p>
+          <h2 class="is-title is-size-2"
+          v-html="this.$t('what.title')"></h2>
+          <p class="is-size-4 has-text-weight-light"
+          v-html="this.$t('what.subtitle')"></p>
         </div>
       </div>
       <br>
@@ -40,18 +42,18 @@
         platformItems: [
           {
             id: 'MANAGEMENT', 
-            title: 'Gestión de proyectos sociales',
-            content: 'Un entorno digital para que organizaciones sociales gestionen sus proyectos de forma transparente y eficiente'
+            title: this.$t('what.management.title'),
+            content: this.$t('what.management.paragraph')
           },
           {
             id: 'MEASUREMENT',
-            title: 'Medición de impacto',
-            content: 'Para que cada donante pueda conocer en todo momento el impacto real de sus aportaciones'
+            title: this.$t('what.measurement.title'),
+            content: this.$t('what.measurement.paragraph')
           },
           { 
             id: 'AUDITING',
-            title: 'Auditoría transparente',
-            content: 'Un entorno de confianza, donde cualquiera puede auditar el movimiento de donaciones en la organización'
+            title: this.$t('what.auditing.title'),
+            content: this.$t('what.auditing.paragraph')
           }
         ],
         platformImgSources: {

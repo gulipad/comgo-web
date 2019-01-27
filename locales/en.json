@@ -1,0 +1,91 @@
+{
+	"navbar": {
+		"why": "Why",
+		"projects": "Projects",
+		"how": "How",
+		"collaborate": "Help out",
+		"contact": "Contact"
+	},
+	"hero": {
+		"title": "Social Impact.",
+		"typerData": ["Transparent.","Efficient.", "Responsible."],
+		"subtitle": "We build trust on the social impact you are already making.",
+		"primary-button": "Host a Project",
+		"secondary-button": "Donate Responsibly"
+
+	},
+	"why": {
+		"title": "For <span class='is-text-highlighted'>transparent</span> charity",
+		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social organization can show their admirable work, and communicate the <span class='shadow is-turquoise'>social impact</span> they build every day. Because that's how they can generate the <span class='shadow is-turquoise'>trust</span> and cooperation they need for their mission. Because we share their will for a better, more just world.",
+		"transparency": {
+			"title": "Transparency",
+			"paragraph": "ComGo helps donors and collaborators participate in the day to day development of the projects they support."
+		},
+		"responsibility": {
+			"title": "Responsibility",
+			"paragraph": "Our platform encourages responsible donations offering the necessary information and traceability for each project."
+		},
+		"efficiency": {
+			"title": "Efficiency",
+			"paragraph": "At ComGo we dream of a social sector that optimizes 100% of the resources to accomplish the mission of a better world."
+		}
+
+	},
+	"projects": {
+		"title": "Projects",
+		"subtitle": "The world's first <span class='shadow is-turquoise'>Blockchain</span> platform for charity project management.",
+		"paragraph": "Because at ComGo we know the most important thing is not the percentage of donation that reaches the project, but the <span class='shadow is-turquoise'>social impact</span> that each donation has. That's why we have created the first <span class='shadow is-turquoise'>blockchain</span> social impact traceability platform."
+	},
+	"what": {
+		"title": "A digital ecosystem for the <span class='is-text-highlighted'>common good</span>",
+		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> is a <span class='shadow is-turquoise'>social impact</span> management platform built on top of IBM Blockchain.",
+		"management": {
+			"title": "Social project management",
+			"paragraph": "A digital ecosystem to help organizations manage their social projects in an efficient, transparent way"
+		},
+		"measurement": {
+			"title": "Measurement of impact",
+			"paragraph": "So that each donor can see in real time the impact their donations are having in the real world"
+		},
+		"auditing": {
+			"title": "Transparent auditing",
+			"paragraph": "A ecosystem of trust, where any party can audit the movement of funds within the organization"
+		}
+	},
+	"action": {
+		"title": "A platform for <span class='is-text-highlighted'>everyone</span>",
+		"paragraph": "We want to use <span class='shadow is-turquoise'>blockchain</span> to change the way <span class='shadow is-turquoise'>donations</span> are made and moved. Discover how in our whitepaper.",
+		"button": "Download the whitepaper",
+		"donations": {
+			"title": "Donors",
+			"subtitle": "Open for everyone",
+			"paragraph": "Learn the real impact of your donations and follow the develpment of the project you collaborate with.",
+			"button": "Resgister"
+		},
+		"corporate": {
+			"title": "Corporate donors",
+			"subtitle": "Established companies",
+			"paragraph": "Help your company become transparent. ComGo offers a new way of understanding CSR.",
+			"button": "Contact us"
+		},
+		"ngos": {
+			"title": "Social Organization",
+			"subtitle": "Established NGOs",
+			"paragraph": "At ComGO we have built a tool to help make your organization more transparent, efficient and impactful.",
+			"button": "Host your project"
+		}
+	},
+	"contact": {
+		"title": "Contact us",
+		"subtitle": "We love to <span class='shadow is-turquoise'>listen</span>. Questions? Suggestions? <br><br> Whatever your doubt, we are here to <span class='shadow is-turquoise'>help</span>.",
+		"form": {
+			"name": "Name",
+			"name-placeholder": "Lame and surname",
+			"email": "Email",
+			"email-placeholder": "Email address",
+			"message": "Message",
+			"message-placeholder": "Your message. Leave no thoughts out!",
+			"button": "Send"
+		}
+	}	
+}
