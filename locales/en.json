@@ -4,7 +4,8 @@
 		"projects": "Projects",
 		"how": "How",
 		"collaborate": "Help out",
-		"contact": "Contact"
+		"contact": "Contact",
+		"back-to-home": "Back to Home"
 	},
 	"hero": {
 		"title": "Social Impact.",
@@ -14,9 +15,26 @@
 		"secondary-button": "Donate Responsibly"
 
 	},
+	"host-hero": {
+		"title": "Host your projects on ComGo 👐",
+		"subtitle": "Our mission is to generate trust to all legally constituted social organizations who wish to manage their projects with efficiency and transparency towards their donors",
+		"project": {
+			"title": "Your project",
+			"subtitle": "Host your project on ComGo",
+			"paragraph": "Host your projects on our platform to offer donors traceability on their contributions. Transparency, efficiency and responsibility."
+		},
+		"primary-button": "Host a Project",
+		"secondary-button": "Visit the Marketplace"
+	},
+	"corporate-donors-hero": {
+		"title": "Manage your donations with ComGo 🌍",
+		"subtitle": "We want to generate trust among all actors involved in the support and management of social projects and common good activities, where private and institutional donors are key",
+		"primary-button": "Get in Touch",
+		"secondary-button": "Visit the Marketplace"
+	},
 	"why": {
 		"title": "For <span class='is-text-highlighted'>transparent</span> charity",
-		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social organization can show their admirable work, and communicate the <span class='shadow is-turquoise'>social impact</span> they build every day. Because that's how they can generate the <span class='shadow is-turquoise'>trust</span> and cooperation they need for their mission. Because we share their will for a better, more just world.",
+		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social organizations can show their admirable work, and communicate the <span class='shadow is-turquoise'>social impact</span> they build every day. Because that's how they can generate the <span class='shadow is-turquoise'>trust</span> and cooperation they need for their mission. Because we share their will for a better, more just world.",
 		"transparency": {
 			"title": "Transparency",
 			"paragraph": "ComGo helps donors and collaborators participate in the day to day development of the projects they support."
@@ -34,32 +52,32 @@
 	"projects": {
 		"title": "Projects",
 		"subtitle": "The world's first <span class='shadow is-turquoise'>Blockchain</span> platform for charity project management.",
-		"paragraph": "Because at ComGo we know the most important thing is not the percentage of donation that reaches the project, but the <span class='shadow is-turquoise'>social impact</span> that each donation has. That's why we have created the first <span class='shadow is-turquoise'>blockchain</span> social impact traceability platform."
+		"paragraph": "At ComGo we know the most important thing is not the percentage of donation that reaches the project, but the immediate and long term <span class='shadow is-turquoise'>social impact</span> that each donation generates. That's why we have created the first <span class='shadow is-turquoise'>blockchain</span> immutable social impact traceability platform."
 	},
 	"what": {
 		"title": "A digital ecosystem for the <span class='is-text-highlighted'>common good</span>",
-		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> is a <span class='shadow is-turquoise'>social impact</span> management platform built on top of IBM Blockchain.",
+		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> is the <span class='shadow is-turquoise'>social impact</span> management platform built on Hyperledger on top of IBM Blockchain.",
 		"management": {
 			"title": "Social project management",
-			"paragraph": "A digital ecosystem to help organizations manage their social projects in an efficient, transparent way"
+			"paragraph": "A digital ecosystem to help organizations manage their social projects in the most transparent, efficient way possible"
 		},
 		"measurement": {
 			"title": "Measurement of impact",
-			"paragraph": "So that each donor can see in real time the impact their donations are having in the real world"
+			"paragraph": "So that each donor can see in real time the impact their donations are generating in the real world"
 		},
 		"auditing": {
 			"title": "Transparent auditing",
-			"paragraph": "A ecosystem of trust, where any party can audit the movement of funds within the organization"
+			"paragraph": "A ecosystem of trust, where any party can audit the movement of funds within projects and organizations"
 		}
 	},
 	"action": {
 		"title": "A platform for <span class='is-text-highlighted'>everyone</span>",
-		"paragraph": "We want to use <span class='shadow is-turquoise'>blockchain</span> to change the way <span class='shadow is-turquoise'>donations</span> are made and moved. Discover how in our whitepaper.",
+		"paragraph": "We want to use <span class='shadow is-turquoise'>blockchain</span> to change the way <span class='shadow is-turquoise'>donations</span> are made and traced. Discover how in our whitepaper.",
 		"button": "Download the whitepaper",
 		"donations": {
 			"title": "Donors",
 			"subtitle": "Open for everyone",
-			"paragraph": "Learn the real impact of your donations and follow the develpment of the project you collaborate with.",
+			"paragraph": "Learn the real impact of your donations and follow the development of the projects you support.",
 			"button": "Resgister"
 		},
 		"corporate": {
@@ -87,5 +105,31 @@
 			"message-placeholder": "Your message. Leave no thoughts out!",
 			"button": "Send"
 		}
-	}	
+	},
+	"host-contact": {
+		"title": "Contact us",
+		"subtitle": "If you want your organization be part of our platform please fill in the following form and we will get back to you soon!",
+		"form": {
+			"name": "Name",
+			"name-placeholder": "Lame and surname",
+			"email": "Email",
+			"email-placeholder": "Email address",
+			"message": "Message",
+			"message-placeholder": "Your message. Leave no thoughts out!",
+			"button": "Send"
+		}
+	},
+	"corporate-donors-contact": {
+		"title": "Contact us",
+		"subtitle": "If you are an institutional donor, CSR department, foundation, family office or public administration, and you want to manage your donations to projects, calls for proposals, and manage and trace your projects efficiently and transparently throughout all the supply chain, please get in touch. We want to work with you!",
+		"form": {
+			"name": "Name",
+			"name-placeholder": "Lame and surname",
+			"email": "Email",
+			"email-placeholder": "Email address",
+			"message": "Message",
+			"message-placeholder": "Your message. Leave no thoughts out!",
+			"button": "Send"
+		}
+	}
 }

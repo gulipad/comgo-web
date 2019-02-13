@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <navbar></navbar> -->
     <hero></hero>
     <why id="why"></why>
     <horizontal-divider></horizontal-divider>  

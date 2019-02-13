@@ -1,42 +1,34 @@
 <template>
 	<section class="hero is-fullheight">
     <div class="hero-head">
-      <navbar origin="home"></navbar>
+      <navbar origin="host-a-project"></navbar>
     </div>
 		<div class="hero-body">
 	    <div class="container center-hack">
-        <div class="columns is-vcentered">
-          <div class="column is-half">
+        <div class="columns is-vcentered is-centered has-text-centered">
+          <div class="column is-two-thirds">
             <div class="content">
-              <h2 class="title-serif is-size-2">{{$t('hero.title')}}<br>
-                <vue-typer
-                class="text modifier typer-color"
-                :text= typerData
-                :repeat='1'
-                erase-style='backspace'
-                :erase-delay= '50'
-                ></vue-typer></h2>
-              <p class="hello has-text-grey is-size-4 has-text-weight-light"> {{$t('hero.subtitle')}}</p>
+              <h2 class="title-serif is-size-2">{{$t('corporate-donors-hero.title')}}<br>
+              </h2>
+              <p class="hello has-text-grey is-size-4 has-text-weight-light"> {{$t('corporate-donors-hero.subtitle')}}</p>
             </div>
             <div data-aos="fade-in">
-              <div class="button is-medium is-primary hero-button is-main-button">
-                <a :href="this.$route.path + '#action'"
+              <div class="button is-medium is-primary hero-button">
+                <a :href="this.$route.path + '#contact'"
                 class="is-link"
                 v-smooth-scroll="{duration: 2000, offset: 0}">  
                 {{$t('hero.primary-button')}}
                 </a>
               </div>
               <div class="button is-medium hero-button">
-                <a :href="this.$route.path + '#action'"
+                <a href="https://marketplace.comgo.io/pages/auth/login-2"
                 class="is-link"
+                target="_blank"
                 v-smooth-scroll="{duration: 2000, offset: 0}">  
-                {{$t('hero.secondary-button')}}
+                {{$t('corporate-donors-hero.secondary-button')}}
                 </a>
               </div>
             </div>
-          </div>
-          <div class="column is-half is-hidden-mobile"> 
-            <img src="../static/school.png" class="image">
           </div>
         </div>
 	    </div>
@@ -65,7 +57,7 @@ export default {
 }
 </script>
 
-<style >
+<style scoped>
 
 .center-hack {
   margin-top: -1.5rem;
@@ -83,25 +75,48 @@ export default {
   margin: 10px 10px 0 0;
 }
 
+.is-link {
+  color: inherit
+}
+
 .shadow.is-turquoise {
   -webkit-box-shadow: inset 0 -6px 0 rgba(0,209,178,.2);
   box-shadow: inset 0 -6px 0 rgba(0,209,178,.2);
 }
 
-.is-link {
-  color: inherit
+img.border-hack {
+  border-radius: 10px 10px 0 0;
 }
 
-.is-main-button:hover {
+.card {
+  box-shadow: 0 5px 14px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
+  border-radius: 10px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;  
+  -webkit-transition-property: transform;
+  transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.card.is-new-project .is-new-card-button {
   background-color: transparent;
   border-color: #00d1b2;
   color: #00d1b2;
 }
 
-.is-main-button {
+.card.is-new-project .is-new-card-button:hover {
   background-color: #00d1b2;
   border-color: #00d1b2;
   color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 5px 14px rgba(10, 10, 10, 0.3), 0 0 0 0px rgba(10, 10, 10, 0.1);
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 	

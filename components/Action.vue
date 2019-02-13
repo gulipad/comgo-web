@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="columns is-spaced">
-        <div data-aos="fade-up" class="column is-one-third">
+        <div class="column is-one-third">
           <div class="level">
             <div class="card">
               <div class="card-content">
@@ -39,8 +39,9 @@
                   {{$t('action.donations.paragraph')}}
                 </div>
                 <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  <a href="/"
-                  class="is-link">  
+                  <a href="https://marketplace.comgo.io/pages/auth/register-2"
+                  class="is-link"
+                  target="_blank">  
                   {{$t('action.donations.button')}}
                   </a>
                 </div>
@@ -48,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="column is-one-third">
+        <div class="column is-one-third">
           <div class="level">
             <div class="card">
               <div class="card-content">
@@ -75,7 +76,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="column is-one-third">
+        <div class="column is-one-third">
           <div class="level">
             <div class="card">
               <div class="card-content">
@@ -92,7 +93,7 @@
                   {{$t('action.ngos.paragraph')}}
                 </div>
                 <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  <a href="/"
+                  <a :href="this.$route.path + 'host-a-project'"
                   class="is-link">  
                   {{$t('action.ngos.button')}}
                   </a>

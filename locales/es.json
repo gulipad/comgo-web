@@ -4,7 +4,8 @@
 		"projects": "Proyectos",
 		"how": "Cómo",
 		"collaborate": "Colabora",
-		"contact": "Escríbenos"
+		"contact": "Escríbenos",
+		"back-to-home": "Volver"
 	},
 	"hero": {
 		"title": "Impacto social.",
@@ -13,6 +14,23 @@
 		"primary-button": "Aloja un Proyecto",
 		"secondary-button": "Dona Responsablemente"
 
+	},
+	"host-hero": {
+		"title": "Aloja tus proyectos en ComGo 👐",
+		"subtitle": "Deseamos ayudar a generar confianza a todas las organizaciones sociales legalmente constituidas que deseen manejar sus proyectos con eficiencia y transparencia",
+		"project": {
+			"title": "Tu proyecto",
+			"subtitle": "Aloja tu proyecto en ComGo",
+			"paragraph": "Aloja tu proyecto en nuestra plataforma para ofrecer a tus donantes un seguimiento de tus logros. Transparencia, eficiencia y responsabilidad."
+		},
+		"primary-button": "Aloja un Proyecto",
+		"secondary-button": "Visita la Plataforma"
+	},
+	"corporate-donors-hero": {
+		"title": "Gestiona tus donaciones con ComGo 🌍",
+		"subtitle": "Deseamos ayudar a generar confianza a todas las partes involucradas en el apoyo y gestión de proyectos sociales y para el bien común donde los donates privados o institucionales son piezas clave",
+		"primary-button": "Ponte en Contacto",
+		"secondary-button": "Visita la Plataforma"
 	},
 	"why": {
 		"title": "Por una ayuda <span class='is-text-highlighted'>transparente</span>",
@@ -87,5 +105,31 @@
 			"message-placeholder": "Tu mensaje. No te quedes con dudas.",
 			"button": "Enviar"
 		}
-	}	
+	},
+	"host-contact": {
+		"title": "Escríbenos",
+		"subtitle": "Si deseas utilizar nuestra plataforma por favor rellena el siguiente formulario y nos pondremos en contacto contigo para decirte cómo vamos a trabajar juntos",
+		"form": {
+			"name": "Nombre",
+			"name-placeholder": "Nombre y apellidos",
+			"email": "Email",
+			"email-placeholder": "Correo electrónico",
+			"message": "Mensaje",
+			"message-placeholder": "Tu mensaje. No te quedes con dudas.",
+			"button": "Enviar"
+		}
+	},
+	"corporate-donors-contact": {
+		"title": "Escríbenos",
+		"subtitle": "Si eres un donante institucional, una RSC , una fundación, family office, o una administración pública que deseas gestionar tus donaciones a proyectos, convocatorias de ayudas y gestionar tus proyectos de forma eficiente y transparente, ponte en contacto con nosotros. Queremos trabajar contigo",
+		"form": {
+			"name": "Nombre",
+			"name-placeholder": "Nombre y apellidos",
+			"email": "Email",
+			"email-placeholder": "Correo electrónico",
+			"message": "Mensaje",
+			"message-placeholder": "Tu mensaje. No te quedes con dudas.",
+			"button": "Enviar"
+		}
+	}
 }
