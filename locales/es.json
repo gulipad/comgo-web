@@ -16,7 +16,7 @@
 
 	},
 	"host-hero": {
-		"title": "Aloja tus proyectos en ComGo 👐",
+		"title": "Aloja tus proyectos en ComGo 🤲",
 		"subtitle": "Deseamos ayudar a generar confianza a todas las organizaciones sociales legalmente constituidas que deseen manejar sus proyectos con eficiencia y transparencia",
 		"project": {
 			"title": "Tu proyecto",
@@ -73,7 +73,7 @@
 	"action": {
 		"title": "Una plataforma para <span class='is-text-highlighted'>todos</span>",
 		"paragraph": "Queremos cambiar con <span class='shadow is-turquoise'>blockchain</span> la manera en la que se hacen y mueven las <span class='shadow is-turquoise'>donaciones.</span> Descubre cómo en nuestro whitepaper.",
-		"button": "Descarga el whitepaper",
+		"download-button": "Descarga el whitepaper",
 		"donations": {
 			"title": "Donantes",
 			"subtitle": "Abierto para todos",

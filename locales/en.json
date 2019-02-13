@@ -16,7 +16,7 @@
 
 	},
 	"host-hero": {
-		"title": "Host your projects on ComGo 👐",
+		"title": "Host your projects on ComGo 🤲",
 		"subtitle": "Our mission is to generate trust to all legally constituted social organizations who wish to manage their projects with efficiency and transparency towards their donors",
 		"project": {
 			"title": "Your project",
@@ -73,7 +73,7 @@
 	"action": {
 		"title": "A platform for <span class='is-text-highlighted'>everyone</span>",
 		"paragraph": "We want to use <span class='shadow is-turquoise'>blockchain</span> to change the way <span class='shadow is-turquoise'>donations</span> are made and traced. Discover how in our whitepaper.",
-		"button": "Download the whitepaper",
+		"donwload-button": "Download the whitepaper",
 		"donations": {
 			"title": "Donors",
 			"subtitle": "Open for everyone",

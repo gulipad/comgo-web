@@ -14,9 +14,11 @@
             v-html="this.$t('action.paragraph')"></p>
           </div>
           <div class="button is-medium is-primary hero-button">
-            <a href="/#action"
-            class="is-link">  
-            {{$t('action.button')}}
+            <a href="../static/ComGo_Whitepaper.pdf"
+            target="_blank"
+            class="is-link"
+            download>  
+            {{$t('action.donwload-button')}}
             </a>
           </div>
         </div>
