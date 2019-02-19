@@ -25,81 +25,81 @@
       </div>
       <div class="columns is-spaced">
         <div class="column is-one-third">
-          <div class="level">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <span class="is-size-2">😇</span>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">{{$t('action.donations.title')}}</p>
-                    <p class="subtitle is-6">{{$t('action.donations.subtitle')}}</p>
-                  </div>
+          <div class="card">
+            <div class="card-content card-content-hack">
+              <div class="media">
+                <div class="media-left">
+                  <span class="is-size-2">😇</span>
                 </div>
-                <div class="content">
-                  {{$t('action.donations.paragraph')}}
+                <div class="media-content">
+                  <p class="title is-4">{{$t('action.donations.title')}}</p>
+                  <p class="subtitle is-6">{{$t('action.donations.subtitle')}}</p>
                 </div>
-                <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  <a href="https://marketplace.comgo.io/pages/auth/register-2"
-                  class="is-link"
-                  target="_blank">  
-                  {{$t('action.donations.button')}}
-                  </a>
-                </div>
+              </div>
+              <div class="content">
+                {{$t('action.donations.paragraph')}}
+              </div>
+            </div>
+            <div class="card-button-hack">
+              <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
+                <a href="https://marketplace.comgo.io/pages/auth/register-2"
+                class="is-link"
+                target="_blank">  
+                {{$t('action.donations.button')}}
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="level">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <span class="is-size-2">👩‍💼</span>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">{{$t('action.corporate.title')}}</p>
-                    <p class="subtitle is-6">{{$t('action.corporate.subtitle')}}</p>
-                  </div>
+          <div class="card">
+            <div class="card-content card-content-hack">
+              <div class="media">
+                <div class="media-left">
+                  <span class="is-size-2">👩‍💼</span>
                 </div>
-                <div class="content">
-                  {{$t('action.corporate.paragraph')}}
+                <div class="media-content">
+                  <p class="title is-4">{{$t('action.corporate.title')}}</p>
+                  <p class="subtitle is-6">{{$t('action.corporate.subtitle')}}</p>
                 </div>
-                <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  <a :href="this.$route.path + '/corporate-donors'"
-                  v-smooth-scroll="{duration: 1000, offset: 0}"
-                  class="is-link">  
-                  {{$t('action.corporate.button')}}
-                  </a>
-                </div>
+              </div>
+              <div class="content">
+                {{$t('action.corporate.paragraph')}}
+              </div>
+            </div>
+            <div class="card-button-hack">
+              <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
+                <a :href="this.$route.path + '/corporate-donors'"
+                v-smooth-scroll="{duration: 1000, offset: 0}"
+                class="is-link">  
+                {{$t('action.corporate.button')}}
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="column is-one-third">
-          <div class="level">
-            <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <span class="is-size-2">🤲</span>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">{{$t('action.ngos.title')}}</p>
-                    <p class="subtitle is-6">{{$t('action.ngos.subtitle')}}</p>
-                  </div>
+          <div class="card">
+            <div class="card-content card-content-hack">
+              <div class="media">
+                <div class="media-left">
+                  <span class="is-size-2">🤲</span>
                 </div>
-                <div class="content">
-                  {{$t('action.ngos.paragraph')}}
+                <div class="media-content">
+                  <p class="title is-4">{{$t('action.ngos.title')}}</p>
+                  <p class="subtitle is-6">{{$t('action.ngos.subtitle')}}</p>
                 </div>
-                <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  <a :href="this.$route.path + '/host-a-project'"
-                  class="is-link">  
-                  {{$t('action.ngos.button')}}
-                  </a>
-                </div>
+              </div>
+              <div class="content">
+                {{$t('action.ngos.paragraph')}}
+              </div>
+            </div>
+            <div class="card-button-hack">
+              <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
+                <a :href="this.$route.path + '/host-a-project'"
+                class="is-link">  
+                {{$t('action.ngos.button')}}
+                </a>
               </div>
             </div>
           </div>
@@ -110,6 +110,24 @@
 </template>
 
 <style scoped>
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 5px 14px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
+    border-radius: 10px;
+  }
+
+  .card-content-hack {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+  }
+
+  .card-button-hack {
+    padding: 0 1.5em 1.5em
+  }
 
   .button a {
     color: inherit;
