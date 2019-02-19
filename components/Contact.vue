@@ -10,11 +10,15 @@
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
-          <form id="contact" class="contact-form" name="contact" netlify>
+          <form name="contact" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">     
+              <label>Don’t fill this out: <input name="bot-field"></label>   
+            </p>
             <div class="field">
               <label class="label">{{$t('contact.form.name')}}</label>
               <div class="control">
-                <input class="input" type="text" name="first-and-last-name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true"/>
+                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true" />
               </div>
             </div>
             <div class="field">
