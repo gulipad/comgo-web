@@ -94,7 +94,7 @@ module.exports = {
     {src: '~/plugins/i18n'}
   ],
   generate: {
-    routes: ['/es', '/en']
+    routes: ['/','/es', '/en', '/es/corporate-donors', '/en/corporate-donors', '/es/host-a-project', '/en/host-a-project']
   }
 
 }
