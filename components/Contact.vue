@@ -14,19 +14,19 @@
             <div class="field">
               <label class="label">{{$t('contact.form.name')}}</label>
               <div class="control">
-                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true"/>
+                <input class="input" type="text" name="first-and-last-name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true"/>
               </div>
             </div>
             <div class="field">
               <label class="label">{{$t('contact.form.email')}}</label>
               <div class="control">
-                <input class="input" type="email" name="_replyto" v-bind:placeholder="this.$t('contact.form.email-placeholder')" required="true" value=""/>
+                <input class="input" type="email" name="email" v-bind:placeholder="this.$t('contact.form.email-placeholder')" required="true" value=""/>
               </div>
             </div>
             <div class="field">
               <label class="label">{{$t('contact.form.message')}}</label>
               <div class="control">
-                <textarea class="textarea" name="_message" maxlength="500" required="true" v-bind:placeholder="this.$t('contact.form.message-placeholder')"></textarea>
+                <textarea class="textarea" name="message" maxlength="500" required="true" v-bind:placeholder="this.$t('contact.form.message-placeholder')"></textarea>
               </div>
             </div>
             <div class="field">
