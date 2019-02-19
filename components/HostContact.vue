@@ -10,8 +10,7 @@
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
-          <form id="contact-form" class="contact-form" action="https://formspree.io/helloleiaai@gmail.com"
-                method="POST">
+          <form id="host-a-project" class="contact-form" name="host-a-project" netlify>
             <div class="field">
               <label class="label">{{$t('host-contact.form.name')}}</label>
               <div class="control">
