@@ -14,13 +14,13 @@
             <div class="field">
               <label class="label">{{$t('corporate-donors-contact.form.name')}}</label>
               <div class="control">
-                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('corporate-donors-contact.form.name-placeholder')" required="true">
+                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('corporate-donors-contact.form.name-placeholder')" required="true"/>
               </div>
             </div>
             <div class="field">
               <label class="label">{{$t('corporate-donors-contact.form.email')}}</label>
               <div class="control">
-                <input class="input" type="email" name="_replyto" v-bind:placeholder="this.$t('corporate-donors-contact.form.email-placeholder')" required="true" value="">
+                <input class="input" type="email" name="_replyto" v-bind:placeholder="this.$t('corporate-donors-contact.form.email-placeholder')" required="true" value=""/>
               </div>
             </div>
             <div class="field">

@@ -14,13 +14,13 @@
             <div class="field">
               <label class="label">{{$t('contact.form.name')}}</label>
               <div class="control">
-                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true">
+                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('contact.form.name-placeholder')" required="true"/>
               </div>
             </div>
             <div class="field">
               <label class="label">{{$t('contact.form.email')}}</label>
               <div class="control">
-                <input class="input" type="email" name="_replyto" v-bind:placeholder="this.$t('contact.form.email-placeholder')" required="true" value="">
+                <input class="input" type="email" name="_replyto" v-bind:placeholder="this.$t('contact.form.email-placeholder')" required="true" value=""/>
               </div>
             </div>
             <div class="field">
@@ -32,7 +32,7 @@
             <div class="field">
               <div class="control">
                 <button class="button is-medium is-primary" type="submit">{{$t('contact.form.button')}}</button>
-                <input type="text" name="_gotcha" style="display:none" />
+                <input type="text" name="_gotcha" style="display:none"/>
               </div>
             </div>
           </form>
