@@ -52,7 +52,45 @@
 	"projects": {
 		"title": "Proyectos",
 		"subtitle": "La primera plataforma <span class='shadow is-turquoise'>Blockchain</span> de gestión de proyectos solidarios.",
-		"paragraph": "Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class='shadow is-turquoise'>impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class='shadow is-turquoise'>blockchain</span> de trazabilidad del impacto social ."
+		"paragraph": "Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class='shadow is-turquoise'>impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class='shadow is-turquoise'>blockchain</span> de trazabilidad del impacto social .",
+		"visit-button": "Visita el proyecto",
+		"host-button": "Aloja tu proyecto",
+		"items": [
+			{
+				"title": "Instalación de sistema de gases en el hospital de Djunang",
+				"owner": "Fundación Recover",
+				"content": "Instalación de un sistema de gases medicinales para dar suministro al quirófano del hospital Saint Dominique de Djunang, en Camerún"
+			},
+			{
+				"title": "Refuerzo educativo contra el abandono escolar y el trabajo infantil.",
+				"owner": "Itwillbe",
+				"content": "Trabajamos para acabar con el absentismo y abandono escolar -especialmente en las niñas- de los hijos de familias en situación de vulnerabilidad en el estado de Haryana, India, evitando que éstos caigan en situaciones de trabajo infantil o mendicidad."
+			},
+			{
+				"title": "Grace Humanitas School",
+				"owner": "Kubuka",
+				"content": "Promoviendo el acceso universal a educación básica y de calidad, mediante el apoyo integral a su alumnado, la mejora de infraestructuras y material educativo, formación del profesorado e involucración de las familias"
+			},
+			{
+				"title": "Más para las Madres",
+				"owner": "Fundación Exit",
+				"content": "Proyecto de empoderamiento de madres jóvenes que se ven solas ante el cuidado de sus hijos, ofreciéndoles un servicio de canguro para que puedan dedicar más tiempo a su mejora profesional"
+			},
+			{
+				"title": "Centro Asistencial San Juan Bautista",
+				"owner": "Orden de Malta",
+				"content": "El Centro Asistencial San Juan Bautista (Madrid) proporciona atención sanitaria básica, palia la falta de acceso a medicamentos y mejora la formación higiénico-sanitaria de pacientes en riesgo de exclusión social"
+			}
+		]
+	},
+	"tags": {
+		"education": "Educación",
+		"healthcare": "Sanidad",
+		"women": "Mujeres",
+		"cameroon": "Camerún",
+		"india": "India",
+		"spain": "España",
+		"kenya": "Kenia"
 	},
 	"what": {
 		"title": "Un entorno digital para el <span class='is-text-highlighted'>bien común</span>",

@@ -2,7 +2,7 @@
   <section class="section how-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div data-aos="fade-in" class="column is-one-third">
+        <div class="column is-one-third">
           <div class="content">
             <h2 class="title-mono is-size-1"
             v-html="this.$t('action.title')"></h2>
@@ -18,7 +18,7 @@
             target="_blank"
             class="is-link"
             download>  
-            {{$t('action.donwload-button')}}
+            {{$t('action.download-button')}}
             </a>
           </div>
         </div>
