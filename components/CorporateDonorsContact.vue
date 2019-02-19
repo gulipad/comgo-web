@@ -11,7 +11,7 @@
         </div>
         <div data-aos="fade-in" class="column is-half">
           <form name="corporate-donors" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
-              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="form-name" value="corporate-donors" />
               <p class="hidden">     
                 <label>Don’t fill this out: <input name="bot-field"></label>   
               </p>
