@@ -53,28 +53,44 @@
 		"title": "Projects",
 		"subtitle": "The world's first <span class='shadow is-turquoise'>Blockchain</span> platform for charity project management.",
 		"paragraph": "At ComGo we know the most important thing is not the percentage of donation that reaches the project, but the immediate and long term <span class='shadow is-turquoise'>social impact</span> that each donation generates. That's why we have created the first <span class='shadow is-turquoise'>blockchain</span> immutable social impact traceability platform.",
+		"visit-button": "Visit the project",
+		"host-button": "Host your project",
 		"items": [
 			{
-				"title": "Instalación de sistema de gases en el hospital de Djunang",
+				"title": "Gas system installation in Djunang hospital",
 				"owner": "Fundación Recover",
-				"content": "Instalación de un sistema de gases medicinales para dar suministro al quirófano del hospital Saint Dominique de Djunang, en Camerún"
+				"content": "Installation of system of a medical gas system to supply the surgery room of Saint Dominique de Djunang Hospital in Cameroon"
 			},
 			{
-				"title": "Refuerzo educativo contra el abandono escolar y el trabajo infantil.",
+				"title": "Education support againt school dropouts and child labor",
 				"owner": "Itwillbe",
-				"content": "Trabajamos para acabar con el absentismo y abandono escolar -especialmente en las niñas- de los hijos de familias en situación de vulnerabilidad en el estado de Haryana, India, evitando que éstos caigan en situaciones de trabajo infantil o mendicidad."
+				"content": "We work to stop absenteeism and school dropouts – especially among girls – in families at risk and vulnerability in Haryana, India, helping avoid child labor and beggary"
 			},
 			{
 				"title": "Grace Humanitas School",
 				"owner": "Kubuka",
-				"content": "Promoviendo el acceso universal a educación básica y de calidad, mediante el apoyo integral a su alumnado, la mejora de infraestructuras y material educativo, formación del profesorado e involucración de las familias"
+				"content": "We work to promote universal access to basic quality education, with a holistic support system for students, improving infrastructure and school materials, and building a relationship with their families"
 			},
 			{
-				"title": "Más para las Madres",
+				"title": "More for Mothers",
 				"owner": "Fundación Exit",
-				"content": "Proyecto de empoderamiento de madres jóvenes que se ven solas ante el cuidado de sus hijos, ofreciéndoles un servicio de canguro para que puedan dedicar más tiempo a su mejora profesional"
+				"content": "A project to empower young mothers that feel alone in the full-time care of their children, offering babysitting services so they can invest their time in evolving professionally"
+			},
+			{
+				"title": "San Juan Bautista Assistance Center",
+				"owner": "Orden de Malta",
+				"content": "The San Juan Bautista Assistance Center (Madrid) provides basic healthcare, as well as access to medicine and treatment, and basic health and hygiene training to patients at risk of social exclusion"
 			}
 		]
+	},
+	"tags": {
+		"education": "Education",
+		"healthcare": "Healthcare",
+		"women": "Women",
+		"cameroon": "Cameroon",
+		"india": "India",
+		"spain": "Spain",
+		"kenya": "Kenya"
 	},
 	"what": {
 		"title": "A digital ecosystem for the <span class='is-text-highlighted'>common good</span>",

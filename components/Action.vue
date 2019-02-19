@@ -68,7 +68,7 @@
                   {{$t('action.corporate.paragraph')}}
                 </div>
                 <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                  <a href="/#contact"
+                  <a :href="this.$route.path + 'corporate-donors'"
                   v-smooth-scroll="{duration: 2000, offset: 0}"
                   class="is-link">  
                   {{$t('action.corporate.button')}}

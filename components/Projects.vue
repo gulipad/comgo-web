@@ -27,7 +27,7 @@
                 <img class="border-hack aspect-ratio-hack" :src="data.imgUrl" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">{{data.title}}</p>
@@ -44,6 +44,8 @@
               <div class="content">
                 {{data.content}}
               </div>
+            </div>
+            <div class="card-content">
               <a :href="$route.path + '#action'"
               v-smooth-scroll="{duration: 2000, offset: 0}"
               class="button is-medium is-fullwidth is-rounded is-outlined is-link">
@@ -59,7 +61,7 @@
                 <img class="border-hack aspect-ratio-hack" src="../static/your-project.png" alt="Placeholder image">
               </figure>
             </div> 
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Tu proyecto</p>
@@ -69,10 +71,12 @@
               <div class="content">
                 Si eres una <span class="shadow is-turquoise">organización social</span>, aloja tu proyecto en nuestra plataforma para ofrecer a tus donantes un seguimiento de tus logros. Transparencia, eficiencia y responsabilidad.
               </div>
+            </div>
+            <div class="card-content">
               <div class="button is-medium is-fullwidth is-rounded is-outlined is-new-card-button">
                 <a :href="this.$route.path + 'host-a-project'"
                 class="is-link">  
-                {{$t('action.ngos.button')}}
+                {{$t('projects.host-button')}}
                 </a>
               </div>
             </div>
@@ -145,6 +149,8 @@
   }
 
   .card {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     box-shadow: 0 5px 14px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
     border-radius: 10px;
@@ -156,6 +162,12 @@
     transition-property: all;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+  }
+
+  .card-content-hack {
+    display: flex;
+    flex-direction: column;
+    height: 100%
   }
 
   .card.is-new-project .is-new-card-button {
