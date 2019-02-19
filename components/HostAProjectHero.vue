@@ -16,7 +16,7 @@
               <div class="button is-medium is-primary hero-button">
                 <a :href="this.$route.path + '#contact'"
                 class="is-link"
-                v-smooth-scroll="{duration: 2000, offset: 0}">  
+                v-smooth-scroll="{duration: 1000, offset: 0}">  
                 {{$t('hero.primary-button')}}
                 </a>
               </div>
@@ -24,7 +24,7 @@
                 <a href="https://marketplace.comgo.io/pages/auth/login-2"
                 class="is-link"
                 target="_blank"
-                v-smooth-scroll="{duration: 2000, offset: 0}">  
+                v-smooth-scroll="{duration: 1000, offset: 0}">  
                 {{$t('host-hero.secondary-button')}}
                 </a>
               </div>

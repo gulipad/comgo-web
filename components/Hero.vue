@@ -22,14 +22,14 @@
               <div class="button is-medium is-primary hero-button is-main-button">
                 <a :href="this.$route.path + '#action'"
                 class="is-link"
-                v-smooth-scroll="{duration: 2000, offset: 0}">  
+                v-smooth-scroll="{duration: 1000, offset: 0}">  
                 {{$t('hero.primary-button')}}
                 </a>
               </div>
               <div class="button is-medium hero-button">
                 <a :href="this.$route.path + '#action'"
                 class="is-link"
-                v-smooth-scroll="{duration: 2000, offset: 0}">  
+                v-smooth-scroll="{duration: 1000, offset: 0}">  
                 {{$t('hero.secondary-button')}}
                 </a>
               </div>

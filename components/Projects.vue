@@ -47,7 +47,7 @@
             </div>
             <div class="card-content">
               <a :href="$route.path + '#action'"
-              v-smooth-scroll="{duration: 2000, offset: 0}"
+              v-smooth-scroll="{duration: 1000, offset: 0}"
               class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 {{$t('projects.visit-button')}}
               </a>
@@ -74,7 +74,7 @@
             </div>
             <div class="card-content">
               <div class="button is-medium is-fullwidth is-rounded is-outlined is-new-card-button">
-                <a :href="this.$route.path + 'host-a-project'"
+                <a :href="this.$route.path + '/host-a-project'"
                 class="is-link">  
                 {{$t('projects.host-button')}}
                 </a>
