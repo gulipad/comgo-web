@@ -36,7 +36,7 @@
             <div class="field">
               <div class="control">
                 <button class="button is-medium is-primary" type="submit">{{$t('contact.form.button')}}</button>
-                <input type="text" name="_gotcha" style="display:none"/>
+                <input type="text" style="display:none"/>
               </div>
             </div>
           </form>
@@ -47,6 +47,10 @@
 </template>
 
 <style scoped>
+
+  .hidden {
+    display: none;
+  }
 
   .title-mono {
     font-family: 'Roboto Mono', monospace;

@@ -10,11 +10,15 @@
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
-          <form id="corporate-donors" class="contact-form" name="corporate-donors" netlify>
+          <form name="corporate-donors" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="hidden">     
+                <label>Don’t fill this out: <input name="bot-field"></label>   
+              </p>
             <div class="field">
               <label class="label">{{$t('corporate-donors-contact.form.name')}}</label>
               <div class="control">
-                <input class="input" type="text" name="first-and-last-name" v-bind:placeholder="this.$t('corporate-donors-contact.form.name-placeholder')" required="true"/>
+                <input class="input" type="text" name="name" v-bind:placeholder="this.$t('corporate-donors-contact.form.name-placeholder')" required="true" />
               </div>
             </div>
             <div class="field">
@@ -32,7 +36,7 @@
             <div class="field">
               <div class="control">
                 <button class="button is-medium is-primary" type="submit">{{$t('corporate-donors-contact.form.button')}}</button>
-                <input type="text" name="_gotcha" style="display:none" />
+                <input type="text" style="display:none" />
               </div>
             </div>
           </form>
@@ -43,6 +47,10 @@
 </template>
 
 <style scoped>
+
+  .hidden {
+    display: none;
+  }
 
   .title-mono {
     font-family: 'Roboto Mono', monospace;
