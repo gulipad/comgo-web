@@ -37,8 +37,7 @@
             <div class="navbar-item main-item"
             v-if="origin!='home'">
               <a href="/"
-                class="is-link has-text-grey"
-                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.back-to-home')}}</a>
+                class="is-link has-text-grey">{{$t('navbar.back-to-home')}}</a>
             </div>
 						<div class="navbar-item">
 							<div class="button">
