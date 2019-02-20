@@ -1,7 +1,7 @@
 {
-  "name": "hello-leia-web",
+  "name": "comgo-web",
   "version": "1.0.0",
-  "description": "Revamp of Hello Leia Website",
+  "description": "New ComGo Website",
   "author": "Guli <ignaciomorenopubul@gmail.com>",
   "private": true,
   "scripts": {
