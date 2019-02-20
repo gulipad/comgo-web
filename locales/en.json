@@ -37,7 +37,7 @@
 		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social organizations can show their admirable work, and communicate the <span class='shadow is-turquoise'>social impact</span> they build every day. Because that's how they can generate the <span class='shadow is-turquoise'>trust</span> and cooperation they need for their mission. Because we share their will for a better, more just world.",
 		"transparency": {
 			"title": "Transparency",
-			"paragraph": "ComGo helps donors and collaborators participate in the day to day development of the projects they support."
+			"paragraph": "ComGo helps donors and collaborators participate of the day to day development of the projects they support."
 		},
 		"responsibility": {
 			"title": "Responsibility",
@@ -55,14 +55,17 @@
 		"paragraph": "At ComGo we know the most important thing is not the percentage of donation that reaches the project, but the immediate and long term <span class='shadow is-turquoise'>social impact</span> that each donation generates. That's why we have created the first <span class='shadow is-turquoise'>blockchain</span> immutable social impact traceability platform.",
 		"visit-button": "Visit the project",
 		"host-button": "Host your project",
+		"your-project-title": "Your Project",
+		"your-project-subtitle": "Host your social projects in ComGo",
+		"your-project-content": "If you are a <span class='shadow is-turquoise'>social organization</span>, host your projects in our platform to offer your donors a way to follow their contributions. Transparency, efficiency and responsibility",
 		"items": [
 			{
-				"title": "Gas system installation in Djunang hospital",
+				"title": "Installation of a madical gas system in Djunang hospital",
 				"owner": "Fundación Recover",
 				"content": "Installation of system of a medical gas system to supply the surgery room of Saint Dominique de Djunang Hospital in Cameroon"
 			},
 			{
-				"title": "Education support againt school dropouts and child labor",
+				"title": "Education support against school dropouts and child labor",
 				"owner": "Itwillbe",
 				"content": "We work to stop absenteeism and school dropouts – especially among girls – in families at risk and vulnerability in Haryana, India, helping avoid child labor and beggary"
 			},
@@ -133,7 +136,7 @@
 	},
 	"contact": {
 		"title": "Contact us",
-		"subtitle": "We love to <span class='shadow is-turquoise'>listen</span>. Questions? Suggestions? <br><br> Whatever your doubt, we are here to <span class='shadow is-turquoise'>help</span>.",
+		"subtitle": "We love to <span class='shadow is-turquoise'>listen</span>. Questions? Suggestions? <br><br> Whatever your doubt may be, we are here to <span class='shadow is-turquoise'>help</span>.",
 		"form": {
 			"name": "Name",
 			"name-placeholder": "Lame and surname",

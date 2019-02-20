@@ -55,6 +55,9 @@
 		"paragraph": "Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class='shadow is-turquoise'>impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class='shadow is-turquoise'>blockchain</span> de trazabilidad del impacto social .",
 		"visit-button": "Visita el proyecto",
 		"host-button": "Aloja tu proyecto",
+		"your-project-title": "Tu proyecto",
+		"your-project-subtitle": "Aloja tu proyecto social en ComGo",
+		"your-project-content": "Si eres una <span class='shadow is-turquoise'>organización social</span>, aloja tu proyecto en nuestra plataforma para ofrecer a tus donantes un seguimiento de tus logros. Transparencia, eficiencia y responsabilidad",
 		"items": [
 			{
 				"title": "Instalación de sistema de gases en el hospital de Djunang",

@@ -20,31 +20,31 @@
             v-if="origin=='home'">
 							<a href="/#projects"
                 class="is-link has-text-grey"
-                v-smooth-scroll="{duration: 1000, offset: 0}">{{$t('navbar.projects')}}</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.projects')}}</a>
 						</div>
             <div class="navbar-item main-item"
             v-if="origin=='home'">
               <a href="/#what"
                 class="is-link has-text-grey"
-                v-smooth-scroll="{duration: 1000, offset: 0}">{{$t('navbar.how')}}</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.how')}}</a>
             </div>
             <div class="navbar-item main-item"
             v-if="origin=='home'">
               <a href="/#action"
                 class="is-link has-text-grey"
-                v-smooth-scroll="{duration: 1000, offset: 0}">{{$t('navbar.collaborate')}}</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.collaborate')}}</a>
             </div>
             <div class="navbar-item main-item"
             v-if="origin!='home'">
               <a href="/"
                 class="is-link has-text-grey"
-                v-smooth-scroll="{duration: 1000, offset: 0}">{{$t('navbar.back-to-home')}}</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.back-to-home')}}</a>
             </div>
 						<div class="navbar-item">
 							<div class="button">
                 <a :href= "this.$route.path + '#contact'"
                 class="is-link has-text-grey "
-                v-smooth-scroll="{duration: 1000, offset: 0}">{{$t('navbar.contact')}}</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.contact')}}</a>
               </div>
 						</div>
             <div class="navbar-item not-main-item">

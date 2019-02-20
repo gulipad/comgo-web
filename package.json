@@ -25,7 +25,8 @@
     "nuxt-fontawesome": "^0.3.0",
     "vue-i18n": "^8.7.0",
     "vue-smooth-scroll": "^1.0.13",
-    "vue-typer": "^1.2.0"
+    "vue-typer": "^1.2.0",
+    "vue2-smooth-scroll": "^1.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

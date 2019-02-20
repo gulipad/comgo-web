@@ -6,6 +6,8 @@ export default ({ app }) => {
     disable: 'phone',
     duration: 1000,
     offset: 10,
+    delay: 0,
+    mirror: false,
     once: true
   })
 }

@@ -2,14 +2,14 @@
   <section class="section purpose-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div data-aos="fade-in" class="column is-one-third">
+        <div class="column is-one-third">
           <div class="content">
             <h2 class="title-serif is-size-1">{{$t('projects.title')}}</h2>
             <p class="is-size-5 has-text-weight-light"
             v-html="this.$t('projects.subtitle')"></p>
           </div>
         </div>
-        <div data-aos="fade-in" class="column is-half">
+        <div class="column is-half">
           <div class="content">
             <p class="is-size-5 has-text-weight-light"
             v-html="this.$t('projects.paragraph')"></p>
@@ -18,7 +18,7 @@
       </div>
       <br> <!-- This is a bit hacky -->
       <div class="columns is-multiline">
-        <div data-aos="fade-up"
+        <div
         class="column is-one-third"
         v-for="(data, index) in projects" :key="index">
           <div class="card">  
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" class="column is-one-third">
+        <div class="column is-one-third">
           <div class="card is-new-project">
             <div class="card-image">
               <figure class="image is-4by3">
@@ -64,12 +64,12 @@
             <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Tu proyecto</p>
-                  <p class="subtitle is-6">Aloja tu proyecto social en ComGo</p>
+                  <p class="title is-4">{{$t('projects.your-project-title')}}</p>
+                  <p class="subtitle is-6">{{$t('projects.your-project-subtitle')}}</p>
                 </div>
               </div>
-              <div class="content">
-                Si eres una <span class="shadow is-turquoise">organización social</span>, aloja tu proyecto en nuestra plataforma para ofrecer a tus donantes un seguimiento de tus logros. Transparencia, eficiencia y responsabilidad.
+              <div class="content" v-html="this.$t('projects.your-project-content')">
+                
               </div>
             </div>
             <div class="card-content">

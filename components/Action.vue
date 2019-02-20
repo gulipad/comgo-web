@@ -8,7 +8,7 @@
             v-html="this.$t('action.title')"></h2>
           </div>
         </div>
-        <div data-aos="fade-in" class="column is-half">
+        <div class="column is-half">
           <div class="content">
             <p class="is-size-5 has-text-weight-light"
             v-html="this.$t('action.paragraph')"></p>

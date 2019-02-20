@@ -1,7 +1,7 @@
 <template>
   <section class="section purpose-section is-small">
     <div class="container">
-      <div data-aos="fade-in" class="column has-text-centered">
+      <div class="column has-text-centered">
         <div class="content">
           <h2 class="is-title is-size-2"
           v-html="this.$t('what.title')"></h2>
