@@ -51,7 +51,7 @@
               <div class="media">
                 <div class="media-left">
                   <figure class="image is-128x128">
-                    <img class="is-rounded" src="../static/myriam.png" alt="Placeholder image">
+                    <img class="is-rounded" src="" alt="Placeholder image">
                   </figure>
                 </div>
                 <div class="media-content">
@@ -75,7 +75,7 @@
       </div>
       <br>
       <br>
-      <div data-aos="fade-in" class="level">
+      <!-- <div data-aos="fade-in" class="level">
         <div class="level-item">
           <img class="image is-64x64" src="../static/mit.png">
         </div>
@@ -91,7 +91,7 @@
         <div class="level-item">
           <img class="image is-64x64" src="../static/politecnica.png">
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
