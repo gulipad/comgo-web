@@ -2,16 +2,19 @@
   <div class="section">
     <div data-aos="fade-up" class="container level">
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/caritas.jpg">
+        <img class="image limit-img-size" src="../static/aef.jpg">
       </div>
       <div class="level-item">
         <img class="image limit-img-size" src="../static/itwillbe.png">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/aef.jpg">
+        <img class="image limit-img-size" src="../static/caritas.jpg">
       </div>
       <div class="level-item">
         <img class="image limit-img-size" src="../static/botin.jpg">
+      </div>
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/homeless_entrepreneur_logo.png">
       </div>
     </div>
     <div data-aos="fade-up" class="container level">
@@ -20,6 +23,12 @@
       </div>
       <div class="level-item">
         <img class="image limit-img-size" src="../static/malta.png">
+      </div>
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/farmaceuticos_logo.jpg">
+      </div>
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/exit_logo.png">
       </div>
       <div class="level-item">
         <img class="image limit-img-size" src="../static/recover.jpg">

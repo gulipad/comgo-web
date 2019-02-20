@@ -130,7 +130,7 @@
             content: this.$t('projects.items[4].content'),
             categoryTag: this.$t('tags.healthcare'),
             countryTag: this.$t('tags.spain'),
-            imgUrl: require('~/static/projects/orden_de_malta.jpg')
+            imgUrl: require('~/static/projects/homeless_entrepreneur.jpg')
           }
         ]
       }
