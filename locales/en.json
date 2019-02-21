@@ -33,8 +33,8 @@
 		"secondary-button": "Visit the Marketplace"
 	},
 	"why": {
-		"title": "For <span class='is-text-highlighted'>transparent</span> charity",
-		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social organizations can show their admirable work, and communicate the <span class='shadow is-turquoise'>social impact</span> they build every day. Because that's how they can generate the <span class='shadow is-turquoise'>trust</span> and cooperation they need for their mission. Because we share their will for a better, more just world.",
+		"title": "Towards <span class='is-text-highlighted'>full</span> transparency",
+		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social entities are able to show the heart of their work to achieve citizen's empathy and accomplish their mission. By communicating the <span class='shadow is-turquoise'>social impact</span> they create they can increase trust and collaboration. We at <span class='shadow is-turquoise'>ComGo</span> share their mission and want to take part to create a better world.",
 		"transparency": {
 			"title": "Transparency",
 			"paragraph": "ComGo helps donors and collaborators participate of the day to day development of the projects they support."
@@ -90,6 +90,7 @@
 		"education": "Education",
 		"healthcare": "Healthcare",
 		"women": "Women",
+		"inclusion": "Inclusion",
 		"cameroon": "Cameroon",
 		"india": "India",
 		"spain": "Spain",

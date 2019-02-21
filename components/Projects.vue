@@ -128,7 +128,7 @@
             title: this.$t('projects.items[4].title'),
             owner: this.$t('projects.items[4].owner'),
             content: this.$t('projects.items[4].content'),
-            categoryTag: this.$t('tags.healthcare'),
+            categoryTag: this.$t('tags.inclusion'),
             countryTag: this.$t('tags.spain'),
             imgUrl: require('~/static/projects/homeless_entrepreneur.jpg')
           }
