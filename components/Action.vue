@@ -14,7 +14,7 @@
             v-html="this.$t('action.paragraph')"></p>
           </div>
           <div class="button is-medium is-primary hero-button">
-            <a href="../static/ComGo_Whitepaper.pdf"
+            <a href="https://drive.google.com/open?id=1OVA3rC2KSxqiRRGCUsKlhP30EsBfDDZ_"
             target="_blank"
             class="is-link"
             download>  
