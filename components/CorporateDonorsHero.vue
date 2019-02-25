@@ -23,8 +23,7 @@
               <div class="button is-medium hero-button">
                 <a href="https://marketplace.comgo.io/pages/auth/login-2"
                 class="is-link"
-                target="_blank"
-                v-smooth-scroll="{duration: 1000, offset: 0}">  
+                target="_blank">  
                 {{$t('corporate-donors-hero.secondary-button')}}
                 </a>
               </div>
