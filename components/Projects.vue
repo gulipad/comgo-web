@@ -131,6 +131,14 @@
             categoryTag: this.$t('tags.inclusion'),
             countryTag: this.$t('tags.spain'),
             imgUrl: require('~/static/projects/homeless_entrepreneur.jpg')
+          },
+          {
+            title: this.$t('projects.items[5].title'),
+            owner: this.$t('projects.items[5].owner'),
+            content: this.$t('projects.items[5].content'),
+            categoryTag: this.$t('tags.healthcare'),
+            countryTag: this.$t('tags.uganda'),
+            imgUrl: require('~/static/projects/farmaceuticos.jpg')
           }
         ]
       }

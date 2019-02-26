@@ -83,6 +83,11 @@
 				"title": "Trabajo Primero",
 				"owner": "Homeless Entrepreneur",
 				"content": "#HomelessEntrepreneur facilita la integración laboral de las personas sin hogar, creando puestos de trabajo compatibles con el programa de atención y formación que reciben durante 12 meses"
+			},
+			{
+				"title": "Escuela de Farmacéuticos en Uganda",
+				"owner": "Farmacéuticos sin Fronteras",
+				"content": "Apoyamos a los jóvenes a titularse como graduado en farmacia con tres años de formación. En Uganda, el farmacéutico, es fundamental en centros de salud, farmacias comunitarias y hospitales. Este proyecto está destinado a finalizar la construcción del laboratorio de análisis y formulación magistral."
 			}
 		]
 	},
@@ -94,7 +99,8 @@
 		"cameroon": "Camerún",
 		"india": "India",
 		"spain": "España",
-		"kenya": "Kenia"
+		"kenya": "Kenia",
+		"uganda": "Uganda"
 	},
 	"what": {
 		"title": "Un entorno digital para el <span class='is-text-highlighted'>bien común</span>",

@@ -83,6 +83,11 @@
 				"title": "Work First",
 				"owner": "Homeless Entrepreneur",
 				"content": "#HomelessEntrepreneur helps the homeless integrate into the workforce by generating jobs that are compatible with their 12 month support and training programs"
+			},
+			{
+				"title": "Pharmaceutical School in Uganda",
+				"owner": "Pharmacists without Borders",
+				"content": "We support Uganda's youth in achieving a degree in Pharmacy in 3 years. In Uganda, pharmacists play a key role in hospitals, health centres and pharmacies. The goal of this projects is to finish the construction of an analysis and compunding laboratory."
 			}
 		]
 	},
@@ -94,7 +99,8 @@
 		"cameroon": "Cameroon",
 		"india": "India",
 		"spain": "Spain",
-		"kenya": "Kenya"
+		"kenya": "Kenya",
+		"uganda": "Uganda"
 	},
 	"what": {
 		"title": "A digital ecosystem for the <span class='is-text-highlighted'>common good</span>",
