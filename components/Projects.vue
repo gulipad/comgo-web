@@ -46,7 +46,14 @@
               </div>
             </div>
             <div class="card-content">
-              <a :href="$route.path + '#action'"
+              <a v-if="data.idProject"
+              target="_blank" 
+              :href="'https://marketplace.comgo.io/pages/projectProfile?projectId=' + data.idProject"
+              class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                {{$t('projects.visit-button')}}
+              </a>
+              <a v-if="!data.idProject"
+              :href="$route.path + '#action'"
               v-smooth-scroll="{duration: 1000, offset: 0}"
               class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 {{$t('projects.visit-button')}}
@@ -98,7 +105,8 @@
             content: this.$t('projects.items[0].content'),
             categoryTag: this.$t('tags.healthcare'),
             countryTag: this.$t('tags.cameroon'),
-            imgUrl: require('~/static/projects/fundacion_recover.jpg')
+            imgUrl: require('~/static/projects/fundacion_recover.jpg'),
+            idProject: '5bf697e5891ab1165cdfca8e'
           },
           {
             title: this.$t('projects.items[1].title'),
@@ -106,7 +114,8 @@
             content: this.$t('projects.items[1].content'),
             categoryTag: this.$t('tags.education'),
             countryTag: this.$t('tags.india'),
-            imgUrl: require('~/static/projects/itwillbe.jpg')
+            imgUrl: require('~/static/projects/itwillbe.jpg'),
+            idProject: '5c0f8b8c93b4c118edcec4a8'
           },
           {
             title: this.$t('projects.items[2].title'),
@@ -114,7 +123,8 @@
             content: this.$t('projects.items[2].content'),
             categoryTag: this.$t('tags.education'),
             countryTag: this.$t('tags.kenya'),
-            imgUrl: require('~/static/projects/kubuka.jpg')
+            imgUrl: require('~/static/projects/kubuka.jpg'),
+            idProject: '5be9983addbfb72628007f9a'
           },
           {
             title: this.$t('projects.items[3].title'),
@@ -122,7 +132,8 @@
             content: this.$t('projects.items[3].content'),
             categoryTag: this.$t('tags.women'),
             countryTag: this.$t('tags.spain'),
-            imgUrl: require('~/static/projects/fundacion_exit.jpg')
+            imgUrl: require('~/static/projects/fundacion_exit.jpg'),
+            idProject: ''
           },
           {
             title: this.$t('projects.items[4].title'),
@@ -130,7 +141,8 @@
             content: this.$t('projects.items[4].content'),
             categoryTag: this.$t('tags.inclusion'),
             countryTag: this.$t('tags.spain'),
-            imgUrl: require('~/static/projects/homeless_entrepreneur.jpg')
+            imgUrl: require('~/static/projects/homeless_entrepreneur.jpg'),
+            idProject: '5c267b9b7bfb265f5a094232'
           },
           {
             title: this.$t('projects.items[5].title'),
@@ -138,7 +150,8 @@
             content: this.$t('projects.items[5].content'),
             categoryTag: this.$t('tags.healthcare'),
             countryTag: this.$t('tags.uganda'),
-            imgUrl: require('~/static/projects/farmaceuticos.jpg')
+            imgUrl: require('~/static/projects/farmaceuticos.jpg'),
+            idProject: '5c077bffaa8a556ba123df8e'
           }
         ]
       }
