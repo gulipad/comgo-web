@@ -58,38 +58,38 @@
 		"your-project-title": "Tu proyecto",
 		"your-project-subtitle": "Aloja tu proyecto social en ComGo",
 		"your-project-content": "Si eres una <span class='shadow is-turquoise'>organización social</span>, aloja tu proyecto en nuestra plataforma para ofrecer a tus donantes un seguimiento de tus logros. Transparencia, eficiencia y responsabilidad",
-		"items": [
-			{
+		"items":{
+			"RECOVER": {
 				"title": "Instalación de sistema de gases en el hospital de Djunang",
 				"owner": "Fundación Recover",
 				"content": "Instalación de un sistema de gases medicinales para dar suministro al quirófano del hospital Saint Dominique de Djunang, en Camerún"
 			},
-			{
+			"ITWILLBE": {
 				"title": "Refuerzo educativo contra el abandono escolar y el trabajo infantil.",
 				"owner": "Itwillbe",
 				"content": "Trabajamos para acabar con el absentismo y abandono escolar -especialmente en las niñas- de los hijos de familias en situación de vulnerabilidad en el estado de Haryana, India, evitando que éstos caigan en situaciones de trabajo infantil o mendicidad."
 			},
-			{
+			"KUBUKA": {
 				"title": "Grace Humanitas School",
 				"owner": "Kubuka",
 				"content": "Promoviendo el acceso universal a educación básica y de calidad, mediante el apoyo integral a su alumnado, la mejora de infraestructuras y material educativo, formación del profesorado e involucración de las familias"
 			},
-			{
+			"EXIT": {
 				"title": "Más para las Madres",
 				"owner": "Fundación Exit",
 				"content": "Proyecto de empoderamiento de madres jóvenes que se ven solas ante el cuidado de sus hijos, ofreciéndoles un servicio de canguro para que puedan dedicar más tiempo a su mejora profesional"
 			},
-			{
+			"HOMELESS": {
 				"title": "Trabajo Primero",
 				"owner": "Homeless Entrepreneur",
 				"content": "#HomelessEntrepreneur facilita la integración laboral de las personas sin hogar, creando puestos de trabajo compatibles con el programa de atención y formación que reciben durante 12 meses"
 			},
-			{
+			"FARMACEUTICOS": {
 				"title": "Escuela de Farmacéuticos en Uganda",
 				"owner": "Farmacéuticos sin Fronteras",
 				"content": "Apoyamos a los jóvenes a titularse como graduado en farmacia con tres años de formación. En Uganda, el farmacéutico, es fundamental en centros de salud, farmacias comunitarias y hospitales. Este proyecto está destinado a finalizar la construcción del laboratorio de análisis y formulación magistral."
 			}
-		]
+		}
 	},
 	"tags": {
 		"education": "Educación",

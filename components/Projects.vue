@@ -100,58 +100,58 @@
       return {
         projects: [
           {
-            title: this.$t('projects.items[0].title'),
-            owner: this.$t('projects.items[0].owner'),
-            content: this.$t('projects.items[0].content'),
+            title: this.$t('projects.items["RECOVER"].title'),
+            owner: this.$t('projects.items["RECOVER"].owner'),
+            content: this.$t('projects.items["RECOVER"].content'),
             categoryTag: this.$t('tags.healthcare'),
             countryTag: this.$t('tags.cameroon'),
             imgUrl: require('~/static/projects/fundacion_recover.jpg'),
-            idProject: '5bf697e5891ab1165cdfca8e'
+            idProject: 'Project1542887397074'
           },
           {
-            title: this.$t('projects.items[1].title'),
-            owner: this.$t('projects.items[1].owner'),
-            content: this.$t('projects.items[1].content'),
+            title: this.$t('projects.items["ITWILLBE"].title'),
+            owner: this.$t('projects.items["ITWILLBE"].owner'),
+            content: this.$t('projects.items["ITWILLBE"].content'),
             categoryTag: this.$t('tags.education'),
             countryTag: this.$t('tags.india'),
             imgUrl: require('~/static/projects/itwillbe.jpg'),
-            idProject: '5c0f8b8c93b4c118edcec4a8'
+            idProject: 'Project1544522636024'
           },
           {
-            title: this.$t('projects.items[2].title'),
-            owner: this.$t('projects.items[2].owner'),
-            content: this.$t('projects.items[2].content'),
+            title: this.$t('projects.items["KUBUKA"].title'),
+            owner: this.$t('projects.items["KUBUKA"].owner'),
+            content: this.$t('projects.items["KUBUKA"].content'),
             categoryTag: this.$t('tags.education'),
             countryTag: this.$t('tags.kenya'),
             imgUrl: require('~/static/projects/kubuka.jpg'),
-            idProject: '5be9983addbfb72628007f9a'
+            idProject: 'Project1542035514485'
           },
           {
-            title: this.$t('projects.items[3].title'),
-            owner: this.$t('projects.items[3].owner'),
-            content: this.$t('projects.items[3].content'),
+            title: this.$t('projects.items["EXIT"].title'),
+            owner: this.$t('projects.items["EXIT"].owner'),
+            content: this.$t('projects.items["EXIT"].content'),
             categoryTag: this.$t('tags.women'),
             countryTag: this.$t('tags.spain'),
             imgUrl: require('~/static/projects/fundacion_exit.jpg'),
             idProject: ''
           },
           {
-            title: this.$t('projects.items[4].title'),
-            owner: this.$t('projects.items[4].owner'),
-            content: this.$t('projects.items[4].content'),
+            title: this.$t('projects.items["HOMELESS"].title'),
+            owner: this.$t('projects.items["HOMELESS"].owner'),
+            content: this.$t('projects.items["HOMELESS"].content'),
             categoryTag: this.$t('tags.inclusion'),
             countryTag: this.$t('tags.spain'),
             imgUrl: require('~/static/projects/homeless_entrepreneur.jpg'),
-            idProject: '5c267b9b7bfb265f5a094232'
+            idProject: 'Project1546025883208'
           },
           {
-            title: this.$t('projects.items[5].title'),
-            owner: this.$t('projects.items[5].owner'),
-            content: this.$t('projects.items[5].content'),
+            title: this.$t('projects.items["FARMACEUTICOS"].title'),
+            owner: this.$t('projects.items["FARMACEUTICOS"].owner'),
+            content: this.$t('projects.items["FARMACEUTICOS"].content'),
             categoryTag: this.$t('tags.healthcare'),
             countryTag: this.$t('tags.uganda'),
             imgUrl: require('~/static/projects/farmaceuticos.jpg'),
-            idProject: '5c077bffaa8a556ba123df8e'
+            idProject: 'Project1543994367214'
           }
         ]
       }
