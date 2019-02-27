@@ -179,5 +179,6 @@
 			"message-placeholder": "Your message. Leave no thoughts out!",
 			"button": "Send"
 		}
-	}
+	},
+	"warning-message": "Welcome to ComGo. We are still in beta phase. If you experience any issues please do not hesitate to get in touch."
 }

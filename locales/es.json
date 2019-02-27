@@ -179,5 +179,7 @@
 			"message-placeholder": "Tu mensaje. No te quedes con dudas.",
 			"button": "Enviar"
 		}
-	}
+	},
+	"warning-message": "Bienvenido a ComGo. Todavía estamos en fase beta. Si experimenta algún problema, no dude en contactar. Gracias."
+
 }
