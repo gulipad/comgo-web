@@ -124,7 +124,7 @@
             categoryTag: this.$t('tags.education'),
             countryTag: this.$t('tags.kenya'),
             imgUrl: require('~/static/projects/kubuka.jpg'),
-            idProject: 'Project1542035514485'
+            idProject: 'Project1551519398530'
           },
           {
             title: this.$t('projects.items["EXIT"].title'),
