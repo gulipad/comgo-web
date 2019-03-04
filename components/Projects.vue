@@ -133,7 +133,7 @@
             categoryTag: this.$t('tags.women'),
             countryTag: this.$t('tags.spain'),
             imgUrl: require('~/static/projects/fundacion_exit.jpg'),
-            idProject: ''
+            idProject: 'Project1543485797466'
           },
           {
             title: this.$t('projects.items["HOMELESS"].title'),
