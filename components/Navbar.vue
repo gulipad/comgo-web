@@ -3,7 +3,7 @@
 		<div class="container">
       <nav class="navbar">
           <a href="/">
-            <img class="image is-96x96" src="../static/logo-3.svg">  
+            <img class="image is-96x96" src="../static/logo.png">  
           </a>
         <div class="navbar-item logo">
           <h1 class="nav-title is-size-4 has-text-grey">com<b>go</b></h1>
