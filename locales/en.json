@@ -5,6 +5,7 @@
 		"how": "How",
 		"collaborate": "Help out",
 		"contact": "Contact",
+		"team": "Team",
 		"back-to-home": "Back to Home"
 	},
 	"hero": {
@@ -180,5 +181,62 @@
 			"button": "Send"
 		}
 	},
-	"warning-message": "Welcome to ComGo. We are still in beta phase. If you experience any issues please do not hesitate to get in touch."
+	"warning-message": "Welcome to ComGo. We are still in beta phase. If you experience any issues please do not hesitate to get in touch.",
+	"team": {
+		"core-title": "Core <span class='is-text-highlighted'>Team</span>",
+		"paragraph": "A highly <span class='shadow is-turquoise'>committed</span>, highly professional team, looking to make a real impact in the world. These are the <span class='shadow is-turquoise'>people</span> behind ComGo.",
+		"advisors-title": "Advisors",
+		"core-team": {
+			"MANUEL": {
+				"name": "Manuel Hurtado",
+				"position": "Founding President & CEO"	
+			},
+			"ARANCHA": {
+				"name": "Arancha Martínez",
+				"position": "Charity Solutions Director"
+			},
+			"SOFIA": {
+				"name": "Sofia Atienza",
+				"position": "Business Development Lead"
+			},
+			"SANACHIT": {
+				"name": "Sanachit Mehra",
+				"position": "Blockchain Dev Lead"
+			},
+			"GONZALO": {
+				"name": "Gonzalo Herradón",
+				"position": "Pharma Solution Director"
+			},
+			"JULIO": {
+				"name": "Julio Sevillano",
+				"position": "Pharma Solutions Director"
+			}
+		},
+		"advisors-team": {
+			"JULIUS": {
+				"name": "Julius Akinyemi",
+				"position": "Entrepreneur in Residence, MIT Media Lab"	
+			},
+			"JAVIER": {
+				"name": "Javier Agüera",
+				"position": "Serial Entrepreneur, Founder Blackphone"	
+			},
+			"DEBORAH": {
+				"name": "Deborah Soule",
+				"position": "Technology and Organizations Specialist"
+			},
+			"MARTI": {
+				"name": "Martí Parellada",
+				"position": "UB Economist, Independent Director, Enagás"
+			},
+			"GREGORIO": {
+				"name": "Gregorio Varela Moreiras",
+				"position": "Professor Nutrition & Food Science, President Spanish Nutrition Foundation (FEN)"
+			},
+			"IGNACIO": {
+				"name": "Ignacio Moreno Pubul",
+				"position": "Product Manager @Geoblink"
+			}
+		}
+	}
 }

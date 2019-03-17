@@ -35,6 +35,12 @@
                 v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.collaborate')}}</a>
             </div>
             <div class="navbar-item main-item"
+            v-if="origin=='home'">
+              <a href="/#team"
+                class="is-link has-text-grey"
+                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.team')}}</a>
+            </div>
+            <div class="navbar-item main-item"
             v-if="origin!='home'">
               <a href="/"
                 class="is-link has-text-grey">{{$t('navbar.back-to-home')}}</a>

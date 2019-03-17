@@ -180,6 +180,63 @@
 			"button": "Enviar"
 		}
 	},
-	"warning-message": "Bienvenido a ComGo. Todavía estamos en fase beta. Si experimenta algún problema, no dude en contactar. Gracias."
+	"warning-message": "Bienvenido a ComGo. Todavía estamos en fase beta. Si experimenta algún problema, no dude en contactar. Gracias.",
+	"team": {
+		"core-title": "<span class='is-text-highlighted'>Equipo</span> Core",
+		"paragraph": "Un equipo altamente <span class='shadow is-turquoise'>comprometido</span>, y altamente profesional, con el objetivo de tener un impato positivo en el mundo. Estas son las <span class='shadow is-turquoise'>personas</span> detrás de ComGo.",
+		"advisors-title": "Advisors",
+		"core-team": {
+			"MANUEL": {
+				"name": "Manuel Hurtado",
+				"position": "Presidente y CEO"	
+			},
+			"ARANCHA": {
+				"name": "Arancha Martínez",
+				"position": "Directora de Soluciones para ONGs"
+			},
+			"SOFIA": {
+				"name": "Sofia Atienza",
+				"position": "Business Development Lead"
+			},
+			"SANACHIT": {
+				"name": "Sanachit Mehra",
+				"position": "Blockchain Dev Lead"
+			},
+			"GONZALO": {
+				"name": "Gonzalo Herradón",
+				"position": "Director de Soluciones Farma"
+			},
+			"JULIO": {
+				"name": "Julio Sevillano",
+				"position": "Director de Soluciones Farma"
+			}
+		},
+		"advisors-team": {
+			"JULIUS": {
+				"name": "Julius Akinyemi",
+				"position": "Emprendedor Residente, MIT Media Lab"	
+			},
+			"JAVIER": {
+				"name": "Javier Agüera",
+				"position": "Emprendedor en serie, Fundador de Blackphone"	
+			},
+			"DEBORAH": {
+				"name": "Deborah Soule",
+				"position": "Especialista en Tecnología y Operaciones"
+			},
+			"MARTI": {
+				"name": "Martí Parellada",
+				"position": "Economista UB, Director Independiente, Enagás"
+			},
+			"GREGORIO": {
+				"name": "Gregorio Varela Moreiras",
+				"position": "Profesor de Nutrición y Ciencias Alimentarias, Presidente de la Fundación Española de Nutrición (FEN)"
+			},
+			"IGNACIO": {
+				"name": "Ignacio Moreno Pubul",
+				"position": "Product Manager @Geoblink"
+			}
+		}
+	}
 
 }

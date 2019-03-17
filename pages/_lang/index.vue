@@ -12,9 +12,9 @@
     <horizontal-divider></horizontal-divider>
     <action id="action"></action>
     <horizontal-divider></horizontal-divider>
+    <team id="team"></team>
+    <horizontal-divider></horizontal-divider>
     <contact id="contact"></contact>
-    <!-- <horizontal-divider></horizontal-divider> -->
-    <!-- <team id="team"></team> -->
     <hello-footer></hello-footer>
   </div>
 </template>

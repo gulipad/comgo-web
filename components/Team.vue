@@ -4,77 +4,75 @@
       <div class="columns is-spaced">
         <div data-aos="fade-in" class="column is-one-third">
           <div class="content">
-            <h2 class="title-serif is-size-1">4. Team</h2>
-            <p class="is-size-4">/tiːm/</p>
-            <p class="is-size-5 is-italic">noun</p>
-            <p class="is-size-6 has-text-weight-light">1. a number of persons associated together in work or activity.</p>
+            <h2 class="title-serif is-size-1" v-html="this.$t('team.core-title')"></h2>
           </div>
         </div>
-        <div data-aos="fade-in" class="column is-half">
+        <div class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light has-text-grey"> A small team with ambitious goals. With a varied background, including <span class="shadow is-success">engineering</span>, <span class="shadow is-warning">design</span> and <span class="shadow is-purple">mathematics</span>, we build digtal solutions with a purpose.</p>
-            <p class="is-size-5 has-text-weight-light has-text-grey">To take digital humanism to the next level.</p>
+            <p class="is-size-5 has-text-weight-light"
+            v-html="this.$t('team.paragraph')"></p>
           </div>
         </div>
       </div>
       <br> <!-- This is a bit hacky -->
-      <div class="columns">
-        <div data-aos="fade-up" class="column is-one-half">
+      <div class="columns is-multiline">
+        <div data-aos="fade-up" class="column is-half"
+        v-for="(data, index) in coreTeam" :key="index">
           <div class="card">  
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
                   <figure class="image is-128x128">
-                    <img class="is-rounded" src="../static/guli.png" alt="Placeholder image">
+                    <img class="is-rounded" :src="data.imgUrl" alt="Placeholder image">
                   </figure>
                 </div>
                 <div class="media-content">
-                  <p class="title is-4">Ignacio Moreno Pubul</p>
-                  <p class="subtitle is-6">Product Manager @Geoblink</p>
-                  <div class="tags">
-                    <div class="tag is-medium is-light">Aerospace Engineer</div>
-                    <a class="is-brand is-size-3 align-hack is-linkedin" href="https://www.linkedin.com/in/imorenopubul/" target="_blank" rel="nofollow">
-                      <font-awesome-icon :icon="['fab', 'linkedin']"/>
-                    </a>
-                  </div>
+                  <p class="title is-4">{{data.name}}</p>
+                  <p class="subtitle is-6">{{data.position}}</p>
                 </div>
+                <a v-if="data.linkedinUrl" class="is-brand is-size-3 align-hack is-linkedin" :href="data.linkedinUrl" target="_blank" rel="nofollow">
+                  <font-awesome-icon :icon="['fab', 'linkedin']"/>
+                </a>
               </div>
-              <div class="content">
-                Aerospace Engineer turned Developer turned Product Manager. I take learnings from my job at a high-growth startup to design, build, and deploy beautiful products. My spare time is spent surfing, playing football, or making music. Technovation volunteer.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-up" class="column is-one-half">
-          <div class="card">  
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-128x128">
-                    <img class="is-rounded" src="" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">Myriam Barnés Guevara </p> 
-                  <p class="subtitle is-6">Mathematics Student @UCM</p>
-                  <div class="tags">
-                    <div class="tag is-medium is-light">Industrial Design</div>
-                    <div class="tag is-medium is-light">Mathematics</div>
-                    <a class="is-brand is-size-3 align-hack is-linkedin" href="https://www.linkedin.com/in/myriambarnes/" target="_blank" rel="nofollow">
-                      <font-awesome-icon :icon="['fab', 'linkedin']"/>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="content">
-                Industrial Desgin Engineer and aspiring Mathematician. Co-founder of <a href="http://www.reinventatueducation.com" target="_blank" rel="nofollow">reinventatueducacion.com</a>, an initiative to change Spanish education. Humanist at heart, I have a passion for solving social problems. I enjoy writing, the sun and travelling.
+              <div class="tags">
               </div>
             </div>
           </div>
         </div>
       </div>
       <br>
-      <br>
+      <div class="columns is-spaced">
+        <div data-aos="fade-in" class="column is-one-third">
+          <div class="content">
+            <h2 class="title-serif is-size-1">{{$t('team.advisors-title')}}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-multiline">
+        <div data-aos="fade-up" class="column is-half"
+        v-for="(data, index) in advisorsTeam" :key="index">
+          <div class="card">  
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded" :src="data.imgUrl" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">{{data.name}}</p>
+                  <p class="subtitle is-6">{{data.position}}</p>
+                </div>
+                <a v-if="data.linkedinUrl" class="is-brand is-size-3 align-hack is-linkedin" :href="data.linkedinUrl" target="_blank" rel="nofollow">
+                  <font-awesome-icon :icon="['fab', 'linkedin']"/>
+                </a>
+              </div>
+              <div class="tags">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- <div data-aos="fade-in" class="level">
         <div class="level-item">
           <img class="image is-64x64" src="../static/mit.png">
@@ -95,6 +93,91 @@
     </div>
   </section>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        coreTeam: [
+          {
+            name: this.$t('team.core-team["MANUEL"].name'),
+            position: this.$t('team.core-team["MANUEL"].position'),
+            linkedinUrl: 'https://www.linkedin.com/in/manuelhurtado25/',
+            imgUrl: require('../static/people/manuel.png')
+          },
+          {
+            name: this.$t('team.core-team["ARANCHA"].name'),
+            position: this.$t('team.core-team["ARANCHA"].position'),
+            linkedinUrl: 'https://www.linkedin.com/in/amartinezitwillbe/',
+            imgUrl: require('../static/people/arancha.png')
+          },
+          {
+            name: this.$t('team.core-team["SOFIA"].name'),
+            position: this.$t('team.core-team["SOFIA"].position'),
+            linkedinUrl: 'https://www.linkedin.com/in/sofia-atienza/',
+            imgUrl: require('../static/people/sofia.png')
+          },
+          {
+            name: this.$t('team.core-team["SANACHIT"].name'),
+            position: this.$t('team.core-team["SANACHIT"].position'),
+            linkedinUrl: '',
+            imgUrl: require('../static/people/sanachit.jpg')
+          },
+          {
+            name: this.$t('team.core-team["GONZALO"].name'),
+            position: this.$t('team.core-team["GONZALO"].position'),
+            linkedinUrl: 'https://www.linkedin.com/in/gonzalo-herrad%C3%B3n-91673672/',
+            imgUrl: require('../static/people/gonzalo.png')
+          },
+          {
+            name: this.$t('team.core-team["JULIO"].name'),
+            position: this.$t('team.core-team["JULIO"].position'),
+            linkedinUrl: 'https://www.linkedin.com/in/julio-sevillano-fernandez-098959b1/',
+            imgUrl: require('../static/people/julio.png')
+          }
+        ],
+      advisorsTeam: [
+        {
+          name: this.$t('team.advisors-team["JULIUS"].name'),
+          position: this.$t('team.advisors-team["JULIUS"].position'),
+          linkedinUrl: 'https://www.linkedin.com/in/julius-akinyemi-a41a7512/',
+          imgUrl: require('../static/people/julius.png')
+        },
+        {
+          name: this.$t('team.advisors-team["JAVIER"].name'),
+          position: this.$t('team.advisors-team["JAVIER"].position'),
+          linkedinUrl: 'https://www.linkedin.com/in/javieraguera/',
+          imgUrl: require('../static/people/javier.png')
+        },
+        {
+          name: this.$t('team.advisors-team["DEBORAH"].name'),
+          position: this.$t('team.advisors-team["DEBORAH"].position'),
+          linkedinUrl: 'https://www.linkedin.com/in/deborahsoule/',
+          imgUrl: require('../static/people/deborah.png')
+        },
+        {
+          name: this.$t('team.advisors-team["IGNACIO"].name'),
+          position: this.$t('team.advisors-team["IGNACIO"].position'),
+          linkedinUrl: 'https://www.linkedin.com/in/imorenopubul/',
+          imgUrl: require('../static/people/guli.png')
+        },
+        {
+          name: this.$t('team.advisors-team["MARTI"].name'),
+          position: this.$t('team.advisors-team["MARTI"].position'),
+          linkedinUrl: '',
+          imgUrl: require('../static/people/marti.jpg')
+        },
+        {
+          name: this.$t('team.advisors-team["GREGORIO"].name'),
+          position: this.$t('team.advisors-team["GREGORIO"].position'),
+          linkedinUrl: '',
+          imgUrl: require('../static/people/gregorio.jpg')
+        }
+      ]
+      }
+    }
+  }
+</script>
 
 <style scoped>
   
@@ -134,7 +217,7 @@
   }
 
   .title-serif {
-    font-family: Georgia, serif;
+    font-family: 'Roboto Mono', monospace;
   }
 
   .columns.is-spaced {
