@@ -112,12 +112,6 @@
             imgUrl: require('../static/people/arancha.png')
           },
           {
-            name: this.$t('team.core-team["SOFIA"].name'),
-            position: this.$t('team.core-team["SOFIA"].position'),
-            linkedinUrl: 'https://www.linkedin.com/in/sofia-atienza/',
-            imgUrl: require('../static/people/sofia.png')
-          },
-          {
             name: this.$t('team.core-team["SANACHIT"].name'),
             position: this.$t('team.core-team["SANACHIT"].position'),
             linkedinUrl: '',

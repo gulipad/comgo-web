@@ -115,7 +115,7 @@
             categoryTag: this.$t('tags.education'),
             countryTag: this.$t('tags.india'),
             imgUrl: require('~/static/projects/itwillbe.jpg'),
-            idProject: 'Project1544522636024'
+            idProject: 'Project1552989530451'
           },
           {
             title: this.$t('projects.items["KUBUKA"].title'),
