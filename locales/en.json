@@ -33,6 +33,58 @@
 		"primary-button": "Get in Touch",
 		"secondary-button": "Visit the Marketplace"
 	},
+	"letters-hero": {
+		"title": "What they say about us 🌍",
+		"subtitle": "We work with numerous foundations and institutions to improve the way donations work using blockchain. Here is what they have to say about us.",
+		"primary-button": "Explore the letters"
+	},
+	"letters": {
+		"letter01": {
+			"title": "Alava Chamber of Commerce"
+		},
+		"letter02": {
+			"title": "Alcobendas City Hall"
+		},
+		"letter03": {
+			"title": "Spain Association Against Cancer"
+		},
+		"letter04": {
+			"title": "Spain National Association of Foundations"
+		},
+		"letter05": {
+			"title": "Spain National Fundraisers Association"
+		},
+		"letter06": {
+			"title": "Caritas Spain"
+		},
+		"letter07": {
+			"title": "Madrid City Hall"
+		},
+		"letter08": {
+			"title": "CREAS Impact Investments"
+		},
+		"letter09": {
+			"title": "Botín Foundation"
+		},
+		"letter10": {
+			"title": "Global Alliance of Banking on Values"
+		},
+		"letter11": {
+			"title": "Homelessentrepreneur.org"
+		},
+		"letter12": {
+			"title": "Madrid Government Knowledge Foundation"
+		},
+		"letter13": {
+			"title": "Mauritius Island president Ameenah Gurib-Fakim Foundation"
+		},
+		"letter14": {
+			"title": "Osun State of Nigeria"
+		},
+		"letter15": {
+			"title": "Republique of Cameroun"
+		}
+	},
 	"why": {
 		"title": "Towards <span class='is-text-highlighted'>full</span> transparency",
 		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social entities are able to show the heart of their work to achieve citizen's empathy and accomplish their mission. By communicating the <span class='shadow is-turquoise'>social impact</span> they create they can increase trust and collaboration. We at <span class='shadow is-turquoise'>ComGo</span> share their mission and want to take part to create a better world.",
@@ -141,6 +193,11 @@
 			"paragraph": "At ComGO we have built a tool to help make your organization more transparent, efficient and impactful.",
 			"button": "Host your project"
 		}
+	},
+	"letters-action": {
+		"title": "Recommendation <span class='is-text-highlighted'>letters</span>",
+		"paragraph": "These are the <span class='shadow is-turquoise'>recommendation</span> letters we would like to present.",
+		"button": "Read letter"
 	},
 	"contact": {
 		"title": "Contact us",

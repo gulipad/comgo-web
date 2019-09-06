@@ -33,6 +33,58 @@
 		"primary-button": "Ponte en Contacto",
 		"secondary-button": "Visita la Plataforma"
 	},
+	"letters-hero": {
+		"title": "Lo que dicen de nosotros 🌍",
+		"subtitle": "Trabajamos con varias funcaciones e instituciones para mejorar la forma en la que funcionan las donaciones con blockchain. Esto es lo que dicen de nosotros.",
+		"primary-button": "Explora las cartas"
+	},
+	"letters": {
+		"letter01": {
+			"title": "Cámara de Comercio de Álava"
+		},
+		"letter02": {
+			"title": "Ayuntamiento de Alcobendas"
+		},
+		"letter03": {
+			"title": "Asociación Española Contra el Cáncer"
+		},
+		"letter04": {
+			"title": "Asociación Española de Fundaciones"
+		},
+		"letter05": {
+			"title": "Asociación Española de Fundraising"
+		},
+		"letter06": {
+			"title": "Cáritas Española"
+		},
+		"letter07": {
+			"title": "Ayuntamiento Ciudad de Madrid"
+		},
+		"letter08": {
+			"title": "CREAS Inversores de Impacto"
+		},
+		"letter09": {
+			"title": "Fundación Botín"
+		},
+		"letter10": {
+			"title": "Alianza Global de Banca Ética"
+		},
+		"letter11": {
+			"title": "Homelessentrepreneur.org"
+		},
+		"letter12": {
+			"title": "Fundación Madrid+d"
+		},
+		"letter13": {
+			"title": "Mauritius Island president Ameenah Gurib-Fakim Foundation"
+		},
+		"letter14": {
+			"title": "Osun State of Nigeria"
+		},
+		"letter15": {
+			"title": "Republique of Cameroun"
+		}
+	},
 	"why": {
 		"title": "Por una ayuda <span class='is-text-highlighted'>transparente</span>",
 		"paragraph": "<span class='shadow is-turquoise'>Soñamos</span> con que las ONGs y organizaciones sociales puedan mostrar la ejemplaridad con la que trabajan y comunicar el <span class='shadow is-turquoise'>impacto social</span> que generan cada día. Porque así generan más <span class='shadow is-turquoise'>confianza</span> y más colaboraciones para cumplir su misión. Porque compartimos su voluntad de un mundo mejor, más justo y más solidario.",
@@ -141,6 +193,11 @@
 			"paragraph": "En ComGO hemos creado una herramienta para dotar a ONGs de transparecia, eficiencia e impacto.",
 			"button": "Aloja tu proyecto"
 		}
+	},
+	"letters-action": {
+		"title": "Cartas de <span class='is-text-highlighted'>recomendación</span>",
+		"paragraph": "Estas son las cartas de <span class='shadow is-turquoise'>recomendación</span> que nos gustarian presentar.",
+		"button": "Ver carta"
 	},
 	"contact": {
 		"title": "Escríbenos",

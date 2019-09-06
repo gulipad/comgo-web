@@ -45,7 +45,8 @@
               <a href="/"
                 class="is-link has-text-grey">{{$t('navbar.back-to-home')}}</a>
             </div>
-						<div class="navbar-item">
+						<div class="navbar-item"
+            v-if="origin!='letters'">
 							<div class="button">
                 <a :href= "this.$route.path + '#contact'"
                 class="is-link has-text-grey "
