@@ -1,1 +1,4 @@
-/blockchain4good/letters	/en/blockchain4good/letters/
+[[redirects]]
+  from = "/blockchain4good/letters"
+  to = "/en/blockchain4good/letters"
+  status = 200
