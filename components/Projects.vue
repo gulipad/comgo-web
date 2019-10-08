@@ -152,6 +152,15 @@
             countryTag: this.$t('tags.uganda'),
             imgUrl: require('~/static/projects/farmaceuticos.jpg'),
             idProject: 'Project1543994367214'
+          },
+          {
+            title: this.$t('projects.items["SEUR"].title'),
+            owner: this.$t('projects.items["SEUR"].owner'),
+            content: this.$t('projects.items["SEUR"].content'),
+            categoryTag: this.$t('tags.healthcare'),
+            countryTag: this.$t('tags.spain'),
+            imgUrl: require('~/static/projects/seur.jpg'),
+            idProject: 'Project1563270226939'
           }
         ]
       }
