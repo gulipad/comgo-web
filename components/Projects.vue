@@ -100,67 +100,13 @@
       return {
         projects: [
           {
-            title: this.$t('projects.items["RECOVER"].title'),
-            owner: this.$t('projects.items["RECOVER"].owner'),
-            content: this.$t('projects.items["RECOVER"].content'),
-            categoryTag: this.$t('tags.healthcare'),
-            countryTag: this.$t('tags.cameroon'),
-            imgUrl: require('~/static/projects/fundacion_recover.jpg'),
-            idProject: 'Project1542887397074'
-          },
-          {
             title: this.$t('projects.items["ITWILLBE"].title'),
             owner: this.$t('projects.items["ITWILLBE"].owner'),
             content: this.$t('projects.items["ITWILLBE"].content'),
-            categoryTag: this.$t('tags.education'),
+            categoryTag: this.$t('tags.children'),
             countryTag: this.$t('tags.india'),
-            imgUrl: require('~/static/projects/itwillbe.jpg'),
-            idProject: 'Project1552989530451'
-          },
-          {
-            title: this.$t('projects.items["KUBUKA"].title'),
-            owner: this.$t('projects.items["KUBUKA"].owner'),
-            content: this.$t('projects.items["KUBUKA"].content'),
-            categoryTag: this.$t('tags.education'),
-            countryTag: this.$t('tags.kenya'),
-            imgUrl: require('~/static/projects/kubuka.jpg'),
-            idProject: 'Project1551519398530'
-          },
-          {
-            title: this.$t('projects.items["EXIT"].title'),
-            owner: this.$t('projects.items["EXIT"].owner'),
-            content: this.$t('projects.items["EXIT"].content'),
-            categoryTag: this.$t('tags.women'),
-            countryTag: this.$t('tags.spain'),
-            imgUrl: require('~/static/projects/fundacion_exit.jpg'),
-            idProject: 'Project1543485797466'
-          },
-          {
-            title: this.$t('projects.items["HOMELESS"].title'),
-            owner: this.$t('projects.items["HOMELESS"].owner'),
-            content: this.$t('projects.items["HOMELESS"].content'),
-            categoryTag: this.$t('tags.inclusion'),
-            countryTag: this.$t('tags.spain'),
-            imgUrl: require('~/static/projects/homeless_entrepreneur.jpg'),
-            idProject: 'Project1546025883208'
-          },
-          {
-            title: this.$t('projects.items["FARMACEUTICOS"].title'),
-            owner: this.$t('projects.items["FARMACEUTICOS"].owner'),
-            content: this.$t('projects.items["FARMACEUTICOS"].content'),
-            categoryTag: this.$t('tags.healthcare'),
-            countryTag: this.$t('tags.uganda'),
-            imgUrl: require('~/static/projects/farmaceuticos.jpg'),
-            idProject: 'Project1543994367214'
-          },
-          {
-            title: this.$t('projects.items["SEUR"].title'),
-            owner: this.$t('projects.items["SEUR"].owner'),
-            content: this.$t('projects.items["SEUR"].content'),
-            categoryTag: this.$t('tags.healthcare'),
-            countryTag: this.$t('tags.spain'),
-            imgUrl: require('~/static/projects/seur.jpg'),
-            idProject: 'Project1563270226939'
+            imgUrl: require('~/static/projects/itwillbe.png'),
+            idProject: 'Project1574433438463'
           }
         ]
       }

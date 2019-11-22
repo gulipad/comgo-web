@@ -112,40 +112,10 @@
 		"your-project-subtitle": "Host your social projects in ComGo",
 		"your-project-content": "If you are a <span class='shadow is-turquoise'>social organization</span>, host your projects in our platform to offer your donors a way to follow their contributions. Transparency, efficiency and responsibility",
 		"items": {
-			"RECOVER": {
-				"title": "Installation of a madical gas system in Djunang hospital",
-				"owner": "Fundación Recover",
-				"content": "Installation of system of a medical gas system to supply the surgery room of Saint Dominique de Djunang Hospital in Cameroon"
-			},
 			"ITWILLBE": {
-				"title": "Education support against school dropouts and child labor",
-				"owner": "Itwillbe",
-				"content": "We work to stop absenteeism and school dropouts – especially among girls – in families at risk and vulnerability in Haryana, India, helping avoid child labor and beggary"
-			},
-			"KUBUKA": {
-				"title": "Grace Humanitas School",
-				"owner": "KUBUKA",
-				"content": "We work to promote universal access to basic quality education, with a holistic support system for students, improving infrastructure and school materials, and building a relationship with their families"
-			},
-			"EXIT": {
-				"title": "More for Mothers",
-				"owner": "Fundación Exit",
-				"content": "A project to empower young mothers that feel alone in the full-time care of their children, offering babysitting services so they can invest their time in evolving professionally"
-			},
-			"HOMELESS": {
-				"title": "Work First",
-				"owner": "Homeless Entrepreneur",
-				"content": "#HomelessEntrepreneur helps the homeless integrate into the workforce by generating jobs that are compatible with their 12 month support and training programs"
-			},
-			"FARMACEUTICOS": {
-				"title": "Pharmaceutical School in Uganda",
-				"owner": "Pharmacists without Borders",
-				"content": "We support Uganda's youth in achieving a degree in Pharmacy in 3 years. In Uganda, pharmacists play a key role in hospitals, health centres and pharmacies. The goal of this projects is to finish the construction of an analysis and compunding laboratory."
-			},
-			"SEUR": {
-				"title": "Exoskeleton therapy",
-				"owner": "Seur Foundation",
-				"content": "Exoskeleton therapy for Álvaro."
+				"title": "Street Children Protection in India",
+				"owner": "Itwillbe.org",
+				"content": " Hardware acquisition to scale PPa-People's Protection App technological solution to register and protect Street Children in India from mafias and exploitation"
 			}
 		}
 	},
@@ -153,6 +123,8 @@
 		"education": "Education",
 		"healthcare": "Healthcare",
 		"women": "Women",
+		"poverty": "Poverty",
+		"children": "Children",
 		"inclusion": "Inclusion",
 		"cameroon": "Cameroon",
 		"india": "India",
