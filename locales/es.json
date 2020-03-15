@@ -33,6 +33,12 @@
 		"primary-button": "Ponte en Contacto",
 		"secondary-button": "Visita la Plataforma"
 	},
+	"stop-covid-hero": {
+		"title": "#STOPCOVID19",
+		"subtitle": "Luchando contra la pandemia desde la solidaridad",
+		"primary-button": "Sube tu Proyecto",
+		"secondary-button": "Dona Responsablemente"
+	},
 	"letters-hero": {
 		"title": "Lo que dicen de nosotros 🌍",
 		"subtitle": "Trabajamos con varias funcaciones e instituciones para mejorar la forma en la que funcionan las donaciones con blockchain. Esto es lo que dicen de nosotros.",
@@ -115,7 +121,22 @@
 			"ITWILLBE": {
 				"title": "Street Children Protection in India",
 				"owner": "Itwillbe.org",
-				"content": " Hardware acquisition to scale PPa-People's Protection App technological solution to register and protect Street Children in India from mafias and exploitation"
+				"content": "Adquisición de hardware para escalar PPa-People's Protection App technological solution para registrar y proteger niños de las calles de la India de mafias y explotación."
+			},
+			"CARITAS": {
+				"title": "Mejora de la capacidad de producción y comercialización",
+				"owner": "Cáritas",
+				"content": "Mejorar la calidad de vida de familias campesinas a partir del incremento de su capacidad productiva, comercialización de productos y acceso a recursos financieros en seguridad alimentaria y gestión de riesgo frente al cambio climático."
+			},
+			"KUBUKA": {
+				"title": "Project Humanitas Educational Center",
+				"owner": "KUBUKA",
+				"content": "El proyecto busca promover la calidad de la educación del Humanitas Educational Center en Silanga, Kibera. Mediante la reducción del absentismo, espacios educacionales apropiados, empoderamiento de profesores e involucración de los padres."
+			},
+			"FARMA": {
+				"title": "Escuela de Farmacéuticos en Uganda",
+				"owner": "Farmacéuticos sin Fronteras",
+				"content": "Te proponemos colaborar en la formación de técnicos de farmacia. En Uganda hacen falta profesionales sanitarios que puedan desempeñar de manera adecuada la gestión del medicamento, análisis de aguas y alimentos, control, dispensación y seguimiento del medicamento en los hospitales y centros de salud."
 			}
 		}
 	},
@@ -130,7 +151,8 @@
 		"india": "India",
 		"spain": "España",
 		"kenya": "Kenia",
-		"uganda": "Uganda"
+		"uganda": "Uganda",
+		"dominican": "República Dominicana"
 	},
 	"what": {
 		"title": "Un entorno digital para el <span class='is-text-highlighted'>bien común</span>",
@@ -151,6 +173,30 @@
 	"action": {
 		"title": "Una plataforma para <span class='is-text-highlighted'>todos</span>",
 		"paragraph": "Queremos cambiar con <span class='shadow is-turquoise'>blockchain</span> la manera en la que se hacen y mueven las <span class='shadow is-turquoise'>donaciones.</span> Descubre cómo en nuestro whitepaper.",
+		"download-button": "Descarga el whitepaper",
+		"donations": {
+			"title": "Donantes",
+			"subtitle": "Abierto para todos",
+			"paragraph": "Conoce el impacto real de tus donaciones y haz seguimiento de los avances de los proyectos que apoyas.",
+			"button": "Regístrate"
+		},
+		"corporate": {
+			"title": "Donantes corporativos",
+			"subtitle": "Empresas constituidas",
+			"paragraph": "Suma tu empresa a la transparencia. ComGo ofrece a empresas una nueva forma de entender RSC.",
+			"button": "Escríbenos"
+		},
+		"ngos": {
+			"title": "Organizaciones sociales",
+			"subtitle": "Sin ánimo de lucro y constituidas",
+			"paragraph": "En ComGO hemos creado una herramienta para dotar a ONGs de transparecia, eficiencia e impacto.",
+			"button": "Aloja tu proyecto"
+		}
+	},
+	"stop-covid-description": {
+		"title": "Tu donación puede salvar <span class='is-text-highlighted'>vidas</span>.",
+		"subtitle": "Tus <span class='is-text-highlighted'>ideas</span> también",
+		"paragraph": "<span class='shadow is-turquoise'>The Common Good Chain</span> pone a disposición de la sociedad de manera gratuita su plataforma de trazabilidad de donaciones en blockchain para que las ideas que pueden salvar vidas o ayudar a personas vulnerables durante la crisis del COVID-19 puedan ser financiadas a de manera ágil y transparente. Los donantes podrán ver en tiempo real cómo se gestionan los fondos y expertos en emergencias validarán los proyectos financiados.",
 		"download-button": "Descarga el whitepaper",
 		"donations": {
 			"title": "Donantes",
@@ -203,6 +249,19 @@
 		}
 	},
 	"corporate-donors-contact": {
+		"title": "Escríbenos",
+		"subtitle": "Si eres un donante institucional, una RSC , una fundación, family office, o una administración pública que deseas gestionar tus donaciones a proyectos, convocatorias de ayudas y gestionar tus proyectos de forma eficiente y transparente, ponte en contacto con nosotros. Queremos trabajar contigo",
+		"form": {
+			"name": "Nombre",
+			"name-placeholder": "Nombre y apellidos",
+			"email": "Email",
+			"email-placeholder": "Correo electrónico",
+			"message": "Mensaje",
+			"message-placeholder": "Tu mensaje. No te quedes con dudas.",
+			"button": "Enviar"
+		}
+	},
+	"stop-covid-contact": {
 		"title": "Escríbenos",
 		"subtitle": "Si eres un donante institucional, una RSC , una fundación, family office, o una administración pública que deseas gestionar tus donaciones a proyectos, convocatorias de ayudas y gestionar tus proyectos de forma eficiente y transparente, ponte en contacto con nosotros. Queremos trabajar contigo",
 		"form": {

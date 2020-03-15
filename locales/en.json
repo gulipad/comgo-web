@@ -33,6 +33,12 @@
 		"primary-button": "Get in Touch",
 		"secondary-button": "Visit the Marketplace"
 	},
+	"stop-covid-hero": {
+		"title": "#STOPCOVID19",
+		"subtitle": "Fighting the pandemic from solidarity",
+		"primary-button": "Get in Touch",
+		"secondary-button": "Donate Responsibly"
+	},
 	"letters-hero": {
 		"title": "What they say about us 🌍",
 		"subtitle": "We work with numerous foundations and institutions to improve the way donations work using blockchain. Here is what they have to say about us.",
@@ -116,6 +122,21 @@
 				"title": "Street Children Protection in India",
 				"owner": "Itwillbe.org",
 				"content": " Hardware acquisition to scale PPa-People's Protection App technological solution to register and protect Street Children in India from mafias and exploitation"
+			},
+			"CARITAS": {
+				"title": "Improving commercialization and production methods",
+				"owner": "Cáritas",
+				"content": "Improving the quality of life of families by helping them improve the production capacity, commercialization of their products, and financial support in food security and climate change management."
+			},
+			"KUBUKA": {
+				"title": "Project Humanitas Educational Center",
+				"owner": "KUBUKA",
+				"content": "The project aims to promote quality education in Humanitas Educational Center in Silanga, Kibera. To reach this objective the team works in 4 main areas: 1. Reduce the absenteeism of the kids. 2. Create an appropriate educational space. 3. Empower the teachers through training. 4. Involve the parents."
+			},
+			"FARMA": {
+				"title": "Pharmaceutical School in Uganda",
+				"owner": "Farmacéuticos sin Fronteras",
+				"content": "Program to educate skilled pharmaceutical staff to provide medicine guidance, first aid, water and food analysis and more in Uganda"
 			}
 		}
 	},
@@ -130,7 +151,8 @@
 		"india": "India",
 		"spain": "Spain",
 		"kenya": "Kenya",
-		"uganda": "Uganda"
+		"uganda": "Uganda",
+		"dominican": "Dominican Republic"
 	},
 	"what": {
 		"title": "A digital ecosystem for the <span class='is-text-highlighted'>common good</span>",
@@ -171,6 +193,11 @@
 			"button": "Host your project"
 		}
 	},
+	"stop-covid-description": {
+		"title": "Your donations can save <span class='is-text-highlighted'>lives</span>.",
+		"subtitle": "Your <span class='is-text-highlighted'>ideas</span>, too.",
+		"paragraph": "<span class='shadow is-turquoise'>The Common Good Chain</span> offers its platform to society for free, to <span class='shadow is-turquoise'>trace</span> donation on the blockchain so that life-saving ideas can be financed in an efficient and transparent way during the COVID-19 crisis. Donors can see in real time how funds are being managed, and emergency experts will validate the financed projects."
+	},
 	"letters-action": {
 		"title": "Recommendation <span class='is-text-highlighted'>letters</span>",
 		"paragraph": "These are the <span class='shadow is-turquoise'>recommendation</span> letters we would like to present.",
@@ -203,6 +230,19 @@
 		}
 	},
 	"corporate-donors-contact": {
+		"title": "Contact us",
+		"subtitle": "If you are an institutional donor, CSR department, foundation, family office or public administration, and you want to manage your donations to projects, calls for proposals, and manage and trace your projects efficiently and transparently throughout all the supply chain, please get in touch. We want to work with you!",
+		"form": {
+			"name": "Name",
+			"name-placeholder": "Lame and surname",
+			"email": "Email",
+			"email-placeholder": "Email address",
+			"message": "Message",
+			"message-placeholder": "Your message. Leave no thoughts out!",
+			"button": "Send"
+		}
+	},
+	"stop-covid-contact": {
 		"title": "Contact us",
 		"subtitle": "If you are an institutional donor, CSR department, foundation, family office or public administration, and you want to manage your donations to projects, calls for proposals, and manage and trace your projects efficiently and transparently throughout all the supply chain, please get in touch. We want to work with you!",
 		"form": {
