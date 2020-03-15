@@ -107,34 +107,34 @@
             countryTag: this.$t('tags.india'),
             imgUrl: require('~/static/projects/itwillbe.png'),
             idProject: 'Project1574433438463'
-          },
-          {
-            title: this.$t('projects.items["CARITAS"].title'),
-            owner: this.$t('projects.items["CARITAS"].owner'),
-            content: this.$t('projects.items["CARITAS"].content'),
-            categoryTag: this.$t('tags.poverty'),
-            countryTag: this.$t('tags.dominican'),
-            imgUrl: require('~/static/projects/itwillbe.png'),
-            idProject: 'Project1580817189401'
-          },
-          {
-            title: this.$t('projects.items["FARMA"].title'),
-            owner: this.$t('projects.items["FARMA"].owner'),
-            content: this.$t('projects.items["FARMA"].content'),
-            categoryTag: this.$t('tags.children'),
-            countryTag: this.$t('tags.uganda'),
-            imgUrl: require('~/static/projects/itwillbe.png'),
-            idProject: 'Project1581013594942'
-          },
-          {
-            title: this.$t('projects.items["KUBUKA"].title'),
-            owner: this.$t('projects.items["KUBUKA"].owner'),
-            content: this.$t('projects.items["KUBUKA"].content'),
-            categoryTag: this.$t('tags.education'),
-            countryTag: this.$t('tags.kenya'),
-            imgUrl: require('~/static/projects/itwillbe.png'),
-            idProject: 'Project1580828399985'
-          }
+          } //,
+          // {
+          //   title: this.$t('projects.items["CARITAS"].title'),
+          //   owner: this.$t('projects.items["CARITAS"].owner'),
+          //   content: this.$t('projects.items["CARITAS"].content'),
+          //   categoryTag: this.$t('tags.poverty'),
+          //   countryTag: this.$t('tags.dominican'),
+          //   imgUrl: require('~/static/projects/itwillbe.png'),
+          //   idProject: 'Project1580817189401'
+          // },
+          // {
+          //   title: this.$t('projects.items["FARMA"].title'),
+          //   owner: this.$t('projects.items["FARMA"].owner'),
+          //   content: this.$t('projects.items["FARMA"].content'),
+          //   categoryTag: this.$t('tags.children'),
+          //   countryTag: this.$t('tags.uganda'),
+          //   imgUrl: require('~/static/projects/itwillbe.png'),
+          //   idProject: 'Project1581013594942'
+          // },
+          // {
+          //   title: this.$t('projects.items["KUBUKA"].title'),
+          //   owner: this.$t('projects.items["KUBUKA"].owner'),
+          //   content: this.$t('projects.items["KUBUKA"].content'),
+          //   categoryTag: this.$t('tags.education'),
+          //   countryTag: this.$t('tags.kenya'),
+          //   imgUrl: require('~/static/projects/itwillbe.png'),
+          //   idProject: 'Project1580828399985'
+          // }
         ]
       }
     }
