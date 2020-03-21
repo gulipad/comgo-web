@@ -137,8 +137,8 @@
         
         platformImgSources: {
           resume1: require('~/static/resume-1.png'),
-          resume2: require('~/static//resume-2.png'),
-          resume3: require('~/static//resume-3.png'),
+          resume2: require('~/static/resume-2.png'),
+          resume3: require('~/static/resume-3.png'),
           until: require('~/static//UNTIL.png'),
           aef: require('~/static//aef2.jpg'),
         }
