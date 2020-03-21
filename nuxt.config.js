@@ -82,10 +82,7 @@ module.exports = {
   modules: [
     ['nuxt-buefy', {
       materialDesignIcons: false}],
-    ['nuxt-fontawesome'],
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-96149906-1'
-    }]
+    ['nuxt-fontawesome']
   ],
   plugins: [
     {src: '~/plugins/vue-typer', ssr: false},
