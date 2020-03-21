@@ -1,42 +1,35 @@
 <template>
-	<section class="hero is-fullheight">
+  <section class="hero is-fullheight">
     <div class="hero-head">
       <navbar origin="host-a-project"></navbar>
     </div>
-		<div class="hero-body">
-	    <div class="container center-hack">
-        <div class="columns is-vcentered is-centered has-text-centered">
-          <div class="column is-two-thirds">
-            <div class="content">
-              <h2 class="title-serif is-size-2">{{$t('stop-covid-hero.title')}}<br>
-              </h2>
-              <p class="hello has-text-grey is-size-4 has-text-weight-light"> {{$t('stop-covid-hero.subtitle')}}</p>
-            </div>
-            <div data-aos="fade-in">
-              <div class="button is-medium is-primary hero-button">
+    <div class="hero-body">
+      <div class="container center-hack">
+        <div data-aos="fade-in" class="column has-text-centered">
+        <div class="content">
+            <h2 class="title-serif is-size-2" v-html="this.$t('resume.title')"></h2>
+            <p class="is-size-4 has-text-weight-light" v-html="this.$t('resume.paragraph')"></p>
+        </div>
+        <div data-aos="fade-in">
+          <div class="button is-medium is-primary hero-button">
                 <a :href="this.$route.path + '#contact'"
                 class="is-link"
                 v-smooth-scroll="{duration: 1000, offset: 0}">  
                 {{$t('hero.primary-button')}}
                 </a>
-              </div>
-              <div class="button is-medium hero-button">
+          </div>
+          <div class="button is-medium hero-button">
                 <a href="https://marketplace.comgo.io/pages/auth/login-2"
                 class="is-link"
                 target="_blank">  
                 {{$t('stop-covid-hero.secondary-button')}}
                 </a>
-              </div>
-            </div>
           </div>
         </div>
-	    </div>
-		</div>
-    <div class="hero-foot">
-      <br>
-      <horizontal-divider></horizontal-divider>
+      </div>
+      </div>
     </div>
-	</section>
+  </section>
 </template>
 
 <script>
@@ -118,5 +111,5 @@ img.border-hack {
   transform: translateY(-5px);
 }
 
-	
+  
 </style>

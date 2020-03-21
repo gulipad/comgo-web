@@ -91,6 +91,28 @@
 			"title": "Republique of Cameroun"
 		}
 	},
+	"resume": {
+		"title": "#STOP<span class='is-text-highlighted'>COVID</span>19",
+		"paragraph": "Fighting the pandemic whith solidarity.<br><br> The Common Good Chain makes its donation traceability platform available to society <span class='shadow is-turquoise'>free of charge</span> to help in the fight against COVID-19. Donors will be able to see in real time how funds are managed and emergency experts will validate funded projects. In this way, the risk of fraud is greatly minimized and <span class='shadow is-turquoise'>money is guaranteed to reach those who need it most.</span>",
+		"primary-button": "Sube tu Proyecto",
+		"secondary-button": "Dona Responsablemente",
+		"how-work": {
+			"title": "How does it work?",
+			"paragraph": "Thanks to blockchain technology, the different organizations that are fighting the coronavirus will be able to upload their projects to ComGo and receive financing, in a 100% transparent and fully traceable way. ComGo currently allows the identification of other participating entities, improving the coordination of projects. Donors will be able to see what is happening within the same project at all times, regardless of whether it is managed by one or more entities. In addition, since each project must be accompanied by a calendar of milestones and activities, the status of the project will be visible in real time."
+		},
+		"how-support": {
+			"title": "Who supports us?",
+			"paragraph": "We are not alone, in the fight against COVID-19, . Thanks to the support of these entities, we can make our platform have the greatest possible impact and completely free of charge:",
+			"support1":"United Nations Technology Innovation - UNTIL",
+			"support2":"Spanish Association of Foundations"
+		},
+		"how-help": {
+			"title": "How I can help?",
+			"paragraph": "If you are an institutional donor, a CSR, a foundation, family office, or a public administration that want to manage your donations to projects, call for aid and manage your projects efficiently and transparently, don't hesitate on contact us. We would like to work with you"
+			
+		}
+
+	},
 	"why": {
 		"title": "Towards <span class='is-text-highlighted'>full</span> transparency",
 		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social entities are able to show the heart of their work to achieve citizen's empathy and accomplish their mission. By communicating the <span class='shadow is-turquoise'>social impact</span> they create they can increase trust and collaboration. We at <span class='shadow is-turquoise'>ComGo</span> share their mission and want to take part to create a better world.",

@@ -2,7 +2,7 @@
   <section class="section how-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div class="column is-one-third">
+        <div class="column is-half">
           <div class="content">
             <h2 class="title-mono is-size-4"
             v-html="this.$t('stop-covid-description.title')"></h2>
@@ -12,12 +12,23 @@
             v-html="this.$t('stop-covid-description.subtitle')"></h2>
           </div>
         </div>
-        <div class="column is-three-fifths">
+        
+        <div class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light"
-            v-html="this.$t('stop-covid-description.paragraph')"></p>
+                <p class="is-size-5 has-text-weight-light"
+                v-html="this.$t('action.paragraph')"></p>
           </div>
+          <div class="button is-medium is-primary hero-button">
+                <a href="https://drive.google.com/open?id=1OVA3rC2KSxqiRRGCUsKlhP30EsBfDDZ_"
+                target="_blank"
+                class="is-link"
+                download>  
+                {{$t('action.download-button')}}
+                </a>
+          </div>
+            
         </div>
+        
       </div>    
     </div>
   </section>
