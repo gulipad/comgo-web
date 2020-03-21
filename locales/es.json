@@ -9,6 +9,7 @@
 		"back-to-home": "Volver"
 	},
 	"hero": {
+		
 		"title": "Impacto social.",
 		"typerData": ["Transparente.","Eficiente.", "Responsable."],
 		"subtitle": "Generamos confianza en el impacto social que ya estás creando.",
@@ -33,9 +34,9 @@
 		"primary-button": "Ponte en Contacto",
 		"secondary-button": "Visita la Plataforma"
 	},
-	"stop-covid-hero": {
-		"title": "#STOPCOVID19",
-		"subtitle": "Luchando contra la pandemia desde la solidaridad",
+	"stop-covid-hero": {  
+		"title": "#STOP COVID19",
+		"subtitle":  "Luchando contra la pandemia desde la solidaridad.<br><br> The Common Good Chain pone a disposición de la sociedad <span class='shadow is-turquoise'>de manera gratuita</span> su plataforma de trazabilidad de donaciones para ayudar en la lucha contra el COVID-19.<br> Los donantes podrán ver en tiempo real cómo se gestionan los fondos y expertos en emergencias validarán los proyectos financiados. De esta manera, se minimiza enormemente el riesgo de fraude y se garantiza <span class='shadow is-turquoise'>que el dinero llegue a quien más lo necesita.</span>",
 		"primary-button": "Sube tu Proyecto",
 		"secondary-button": "Dona Responsablemente"
 	},
@@ -90,6 +91,28 @@
 		"letter15": {
 			"title": "Republique of Cameroun"
 		}
+	},
+	"resume": {
+		"title": "#STOP<span class='is-text-highlighted'>COVID</span>19",
+		"paragraph": "Luchando contra la pandemia desde la solidaridad.<br><br> The Common Good Chain pone a disposición de la sociedad <span class='shadow is-turquoise'>de manera gratuita</span> su plataforma de trazabilidad de donaciones para ayudar en la lucha contra el COVID-19. Los donantes podrán ver en tiempo real cómo se gestionan los fondos y expertos en emergencias validarán los proyectos financiados. De esta manera, se minimiza enormemente el riesgo de fraude y se garantiza <span class='shadow is-turquoise'>que el dinero llegue a quien más lo necesita.</span>",
+		"primary-button": "Sube tu Proyecto",
+		"secondary-button": "Dona Responsablemente",
+		"how-work": {
+			"title": "¿Cómo funciona?",
+			"paragraph": "Gracias a la tecnología blockchain, las distintas organizaciones que están luchando contra el coronavirus podrán subir a ComGo sus proyectos y recibir financiación, de manera 100% transparente y totalmente trazable. ComGo permite actualmente identificar otras entidades participantes, mejorando así la coordinación de los proyectos. Los donantes podrán ver en todo momento lo que sucede dentro de un mismo proyecto, independientemente de que este esté gestionado por una o varias entidades. Además, dado que cada proyecto deberá ir acompañado de un calendario de hitos y actividades, se podrá visibilizar el estado del proyecto en tiempo real."
+		},
+		"how-support": {
+			"title": "¿Quién nos apoya?",
+			"paragraph": "En la lucha contra el COVID-19, no estamos solos. Gracias al apoyo de estas entidades, podemos lograr que nuestra plataforma tenga el mayor impacto posible y de manera totalmente gratuita:",
+			"support1":"La Agencia de Innovación y Tecnología de las Naciones Unidas - UNTIL",
+			"support2":"La Asociación Española de Fundaciones"
+		},
+		"how-help": {
+			"title": "¿Cómo puedo ayudar?",
+			"paragraph": "Si eres un donante institucional, una RSC , una fundación, family office, o una administración pública que deseas gestionar tus donaciones a proyectos, convocatorias de ayudas y gestionar tus proyectos de forma eficiente y transparente, ponte en contacto con nosotros. Queremos trabajar contigo.",
+			"contact": "Escríbenos"
+		}
+
 	},
 	"why": {
 		"title": "Por una ayuda <span class='is-text-highlighted'>transparente</span>",
