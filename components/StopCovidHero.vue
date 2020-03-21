@@ -29,10 +29,6 @@
       </div>
       </div>
     </div>
-    <div class="hero-foot">
-      <br>
-      <horizontal-divider></horizontal-divider>
-    </div>
   </section>
 </template>
 
