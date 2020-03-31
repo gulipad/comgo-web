@@ -297,7 +297,7 @@
 			"button": "Enviar"
 		}
 	},
-	"warning-message": "Bienvenido a ComGo. Todavía estamos en fase beta. Si experimenta algún problema, no dude en contactar. Gracias.",
+	"warning-message": "Bienvenido a ComGo. Durante la crisis del <b>COVID-19</b> hemos puesto a disposición nuestra plataforma para luchar contra la pandemia en <b><a href=\"https://stopcovid.io/discover\" target=\"_blank\">stopcovid.io</a></b>.",
 	"team": {
 		"core-title": "<span class='is-text-highlighted'>Equipo</span> Core",
 		"paragraph": "Un equipo altamente <span class='shadow is-turquoise'>comprometido</span>, y altamente profesional, con el objetivo de tener un impato positivo en el mundo. Estas son las <span class='shadow is-turquoise'>personas</span> detrás de ComGo.",

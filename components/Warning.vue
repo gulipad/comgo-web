@@ -1,7 +1,8 @@
 <template>
 	<div v-if="isOpen" class="notification has-text-centered is-warning">
-    <button @click="isOpen = false" class="delete"></button>
-    {{$t('warning-message')}}
+    <p v-html="this.$t('warning-message')"></p>
+    <button @click="isOpen = false" class="delete">
+    </button>
   </div>
 </template>
 
