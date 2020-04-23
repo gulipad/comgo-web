@@ -21,7 +21,7 @@
                 </a>
               </div>
               <div class="button is-medium hero-button">
-                <a href="https://marketplace.comgo.io/pages/auth/login-2"
+                <a href="https://stopcovid.io"
                 class="is-link"
                 target="_blank">  
                 {{$t('corporate-donors-hero.secondary-button')}}

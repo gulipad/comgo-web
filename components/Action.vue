@@ -42,7 +42,7 @@
             </div>
             <div class="card-button-hack">
               <div class="button is-medium is-fullwidth is-rounded is-outlined is-main-button">
-                <a href="https://marketplace.comgo.io/pages/auth/register-2"
+                <a href="https://stopcovid.io"
                 class="is-link"
                 target="_blank">  
                 {{$t('action.donations.button')}}

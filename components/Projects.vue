@@ -48,7 +48,7 @@
             <div class="card-content">
               <a v-if="data.idProject"
               target="_blank" 
-              :href="'https://marketplace.comgo.io/pages/projectProfile?projectId=' + data.idProject"
+              href="https://stopcovid.io"
               class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 {{$t('projects.visit-button')}}
               </a>
