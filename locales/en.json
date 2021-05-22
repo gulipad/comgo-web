@@ -1,7 +1,7 @@
 {
 	"navbar": {
 		"why": "Why",
-		"projects": "Projects",
+		"projects": "Comgo Network",
 		"how": "How",
 		"collaborate": "Help out",
 		"contact": "Contact",
@@ -11,9 +11,9 @@
 	"hero": {
 		"title": "Social Impact.",
 		"typerData": ["Transparent.","Efficient.", "Responsible."],
-		"subtitle": "We build trust on the social impact you are already making.",
-		"primary-button": "Host a Project",
-		"secondary-button": "Donate Responsibly"
+		"subtitle": "Unleashing access to blockchain technology for the social good.",
+		"primary-button": "Report impact",
+		"secondary-button": "Fund impact"
 
 	},
 	"host-hero": {
@@ -114,7 +114,7 @@
 
 	},
 	"why": {
-		"title": "Towards <span class='is-text-highlighted'>full</span> transparency",
+		"title": "Towards <span class='is-text-highlighted'>transparent</span> impact reporting",
 		"paragraph": "We <span class='shadow is-turquoise'>dream</span> of an ecosystem where NGOs and social entities are able to show the heart of their work to achieve citizen's empathy and accomplish their mission. By communicating the <span class='shadow is-turquoise'>social impact</span> they create they can increase trust and collaboration. We at <span class='shadow is-turquoise'>ComGo</span> share their mission and want to take part to create a better world.",
 		"transparency": {
 			"title": "Transparency",
@@ -131,9 +131,9 @@
 
 	},
 	"projects": {
-		"title": "Projects",
-		"subtitle": "The world's first <span class='shadow is-turquoise'>Blockchain</span> platform for charity project management.",
-		"paragraph": "At ComGo we know the most important thing is not the percentage of donation that reaches the project, but the immediate and long term <span class='shadow is-turquoise'>social impact</span> that each donation generates. That's why we have created the first <span class='shadow is-turquoise'>blockchain</span> immutable social impact traceability platform.",
+		"title": "ComGo network",
+		"subtitle": "The first digital platform for  <span class='shadow is-turquoise'>impact reporting</span> co-created along with all the agents taking part in the impact sector.",
+		"paragraph": "Bring your impact community closer, allow new relationships, give voice to your beneficiaries and collect data to better drive your decisions to <span class='shadow is-turquoise'>increase your impact.</span>",
 		"visit-button": "Visit the project",
 		"host-button": "Host your project",
 		"your-project-title": "Your Project",
@@ -178,23 +178,23 @@
 	},
 	"what": {
 		"title": "A digital ecosystem for the <span class='is-text-highlighted'>common good</span>",
-		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> is the <span class='shadow is-turquoise'>social impact</span> management platform built on Hyperledger on top of IBM Blockchain.",
+		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> unleashes <span class='shadow is-turquoise'>impact management</span>  and automated impact reporting solutions for organizations that work for the common good.",
 		"management": {
 			"title": "Social project management",
-			"paragraph": "A digital ecosystem to help organizations manage their social projects in the most transparent, efficient way possible"
+			"paragraph": "ComGo helps organizations manage their projects and report impact in the most transparent and efficient possible way."
 		},
 		"measurement": {
 			"title": "Measurement of impact",
-			"paragraph": "So that each donor can see in real time the impact their donations are generating in the real world"
+			"paragraph": "So that accurate data and real impact drive funding decisions."
 		},
 		"auditing": {
 			"title": "Transparent auditing",
-			"paragraph": "A ecosystem of trust, where any party can audit the movement of funds within projects and organizations"
+			"paragraph": "Enabling social organizations to reduce their auditing costs to focus on what they are best at: creating social impact."
 		}
 	},
 	"action": {
-		"title": "A platform for <span class='is-text-highlighted'>everyone</span>",
-		"paragraph": "We want to use <span class='shadow is-turquoise'>blockchain</span> to change the way <span class='shadow is-turquoise'>donations</span> are made and traced. Discover how in our whitepaper.",
+		"title": "A network for <span class='is-text-highlighted'>everyone</span>",
+		"paragraph": "We want to use <span class='shadow is-turquoise'>blockchain</span> to change the way <span class='shadow is-turquoise'>donations</span> are made and traced.",
 		"download-button": "Download the whitepaper",
 		"donations": {
 			"title": "Donors",
@@ -211,7 +211,7 @@
 		"ngos": {
 			"title": "Social Organization",
 			"subtitle": "Established NGOs",
-			"paragraph": "At ComGO we have built a tool to help make your organization more transparent, efficient and impactful.",
+			"paragraph": "Manage your imapact efficiently and report in real time to all your stakeholders.",
 			"button": "Host your project"
 		}
 	},
@@ -279,9 +279,9 @@
 	},
 	"warning-message": "Welcome to ComGo. Durig the <b>COVID-19</b> crisis, we have opened our platform for use to fight against the pandemic. Visit it at <b><a href=\"https://stopcovid.io/discover\" target=\"_blank\">stopcovid.io</a></b>.",
 	"team": {
-		"core-title": "Core <span class='is-text-highlighted'>Team</span>",
+		"core-title": "Our <span class='is-text-highlighted'>Team</span>",
 		"paragraph": "A highly <span class='shadow is-turquoise'>committed</span>, highly professional team, looking to make a real impact in the world. These are the <span class='shadow is-turquoise'>people</span> behind ComGo.",
-		"advisors-title": "Advisors",
+		"advisors-title": "Our Advisory Board",
 		"core-team": {
 			"MANUEL": {
 				"name": "Manuel Hurtado",
@@ -291,21 +291,13 @@
 				"name": "Arancha Martínez",
 				"position": "Charity Solutions Director"
 			},
-			"SOFIA": {
-				"name": "Sofia Atienza",
-				"position": "Business Development Lead"
-			},
 			"SANACHIT": {
 				"name": "Sanachit Mehra",
-				"position": "Blockchain Dev Lead"
+				"position": "Chief Techonolgy Officer"
 			},
-			"GONZALO": {
-				"name": "Gonzalo Herradón",
-				"position": "Pharma Solution Director"
-			},
-			"JULIO": {
-				"name": "Julio Sevillano",
-				"position": "Pharma Solutions Director"
+			"RAJISH": {
+				"name": "Rajish Rajan",
+				"position": "Chief Solutions Officer"
 			}
 		},
 		"advisors-team": {
@@ -318,20 +310,16 @@
 				"position": "Serial Entrepreneur, Founder Blackphone"	
 			},
 			"DEBORAH": {
-				"name": "Deborah Soule",
+				"name": "Dr. Deborah Soule",
 				"position": "Technology and Organizations Specialist"
 			},
-			"MARTI": {
-				"name": "Martí Parellada",
-				"position": "UB Economist, Independent Director, Enagás"
-			},
-			"GREGORIO": {
-				"name": "Gregorio Varela Moreiras",
-				"position": "Professor Nutrition & Food Science, President Spanish Nutrition Foundation (FEN)"
+			"CLAUDIA": {
+				"name": "Claudia Romo",
+				"position": "Special Advisors to the UN and founder of We are all Humans"
 			},
 			"IGNACIO": {
 				"name": "Ignacio Moreno Pubul",
-				"position": "Product Manager @Geoblink"
+				"position": "Co-founder at Capchase"
 			}
 		}
 	}

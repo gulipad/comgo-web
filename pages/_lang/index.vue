@@ -1,6 +1,5 @@
 <template>
   <div>
-    <warning></warning>  
     <hero></hero>
     <why id="why"></why>
     <horizontal-divider></horizontal-divider>  
@@ -20,7 +19,6 @@
 </template>
 
 <script>
-import Warning from '~/components/Warning.vue'
 import Navbar from '~/components/Navbar.vue'
 import Hero from '~/components/Hero.vue'
 import Participants from '~/components/Participants.vue'
@@ -35,7 +33,6 @@ import HelloFooter from '~/components/HelloFooter.vue'
 
 export default {
   components: {
-    Warning,
     Navbar,
     Hero,
     Participants,

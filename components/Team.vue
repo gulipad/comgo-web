@@ -118,16 +118,10 @@
             imgUrl: require('../static/people/sanachit.jpg')
           },
           {
-            name: this.$t('team.core-team["GONZALO"].name'),
-            position: this.$t('team.core-team["GONZALO"].position'),
-            linkedinUrl: 'https://www.linkedin.com/in/gonzalo-herrad%C3%B3n-91673672/',
-            imgUrl: require('../static/people/gonzalo.png')
-          },
-          {
-            name: this.$t('team.core-team["JULIO"].name'),
-            position: this.$t('team.core-team["JULIO"].position'),
-            linkedinUrl: 'https://www.linkedin.com/in/julio-sevillano-fernandez-098959b1/',
-            imgUrl: require('../static/people/julio.png')
+            name: this.$t('team.core-team["RAJISH"].name'),
+            position: this.$t('team.core-team["RAJISH"].position'),
+            linkedinUrl: 'https://www.linkedin.com/in/rajish-rajan-81171b7/',
+            imgUrl: require('../static/people/rajish.jpeg')
           }
         ],
       advisorsTeam: [
@@ -150,22 +144,16 @@
           imgUrl: require('../static/people/deborah.png')
         },
         {
+          name: this.$t('team.advisors-team["CLAUDIA"].name'),
+          position: this.$t('team.advisors-team["CLAUDIA"].position'),
+          linkedinUrl: 'https://www.linkedin.com/in/claudiaromoedelman/',
+          imgUrl: require('../static/people/claudia.jpeg')
+        },
+        {
           name: this.$t('team.advisors-team["IGNACIO"].name'),
           position: this.$t('team.advisors-team["IGNACIO"].position'),
           linkedinUrl: 'https://www.linkedin.com/in/imorenopubul/',
           imgUrl: require('../static/people/guli.png')
-        },
-        {
-          name: this.$t('team.advisors-team["MARTI"].name'),
-          position: this.$t('team.advisors-team["MARTI"].position'),
-          linkedinUrl: '',
-          imgUrl: require('../static/people/marti.jpg')
-        },
-        {
-          name: this.$t('team.advisors-team["GREGORIO"].name'),
-          position: this.$t('team.advisors-team["GREGORIO"].position'),
-          linkedinUrl: '',
-          imgUrl: require('../static/people/gregorio.jpg')
         }
       ]
       }

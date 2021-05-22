@@ -12,9 +12,9 @@
 		
 		"title": "Impacto social.",
 		"typerData": ["Transparente.","Eficiente.", "Responsable."],
-		"subtitle": "Generamos confianza en el impacto social que ya estás creando.",
-		"primary-button": "Aloja un Proyecto",
-		"secondary-button": "Dona Responsablemente"
+		"subtitle": "Acceso sin barreras a la tecnología blockchain para las entidades que generan impacto social.",
+		"primary-button": "Reporta tu impacto",
+		"secondary-button": "Financia impacto"
 
 	},
 	"host-hero": {
@@ -115,7 +115,7 @@
 
 	},
 	"why": {
-		"title": "Por una ayuda <span class='is-text-highlighted'>transparente</span>",
+		"title": "Hacia el reporte de impacto <span class='is-text-highlighted'>transparente</span>",
 		"paragraph": "<span class='shadow is-turquoise'>Soñamos</span> con que las ONGs y organizaciones sociales puedan mostrar la ejemplaridad con la que trabajan y comunicar el <span class='shadow is-turquoise'>impacto social</span> que generan cada día. Porque así generan más <span class='shadow is-turquoise'>confianza</span> y más colaboraciones para cumplir su misión. Porque compartimos su voluntad de un mundo mejor, más justo y más solidario.",
 		"transparency": {
 			"title": "Transparencia",
@@ -132,9 +132,9 @@
 
 	},
 	"projects": {
-		"title": "Proyectos",
-		"subtitle": "La primera plataforma <span class='shadow is-turquoise'>Blockchain</span> de gestión de proyectos solidarios.",
-		"paragraph": "Porque en ComGo sabemos que lo más importante no es el porcentaje de la donación que llegue al proyecto, sino el <span class='shadow is-turquoise'>impacto social</span> que tiene la donación, hemos creado la primera plataforma <span class='shadow is-turquoise'>blockchain</span> de trazabilidad del impacto social .",
+		"title": "Red ComGo",
+		"subtitle": "La primera plataforma para <span class='shadow is-turquoise'>reportar impacto</span> co-creada con los diferentes agentes que forman parte del sector de impacto.",
+		"paragraph": "Acerca a tus grupos de interés, permite relaciones nuevas, dar más voz a tus beneficiarios y recoge datos para tomar mejores decisiones e <span class='shadow is-turquoise'>incrementar tu impacto.</span>",
 		"visit-button": "Visita el proyecto",
 		"host-button": "Aloja tu proyecto",
 		"your-project-title": "Tu proyecto",
@@ -179,23 +179,23 @@
 	},
 	"what": {
 		"title": "Un entorno digital para el <span class='is-text-highlighted'>bien común</span>",
-		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> es una plataforma de gestión de <span class='shadow is-turquoise'>impacto social</span> construida sobre Blockchain de IBM.",
+		"subtitle": "<span class='shadow is-turquoise'>ComGo</span> ofrece herramientas de <span class='shadow is-turquoise'>ComGo</span>gestion y reporte de impacto</span> automatizadas para organizaciones que trabajan por el bien común.",
 		"management": {
 			"title": "Gestión de proyectos sociales",
-			"paragraph": "Un entorno digital para que organizaciones sociales gestionen sus proyectos de forma transparente y eficiente"
+			"paragraph": "ComGo ayuda a las organizaciones sociales a gestionar sus proyectos y reportar el impacto de la manera más transparente y eficiente."
 		},
 		"measurement": {
 			"title": "Medición de impacto",
-			"paragraph": "Para que cada donante pueda conocer en todo momento el impacto real de sus aportaciones"
+			"paragraph": "De manera que sean datos de impacto fiables los que dirijan las decisiones de financiación."
 		},
 		"auditing": {
 			"title": "Auditoría transparente",
-			"paragraph": "Un entorno de confianza, donde cualquiera puede auditar el movimiento de donaciones en la organización"
+			"paragraph": "Haciendo los procesos de auditoría y justificación más sencillos para que las organizaciones sociales se centren en lo que mejor saben hacer: crear impacto."
 		}
 	},
 	"action": {
 		"title": "Una plataforma para <span class='is-text-highlighted'>todos</span>",
-		"paragraph": "Queremos cambiar con <span class='shadow is-turquoise'>blockchain</span> la manera en la que se hacen y mueven las <span class='shadow is-turquoise'>donaciones.</span> Descubre cómo en nuestro whitepaper.",
+		"paragraph": "Queremos cambiar con <span class='shadow is-turquoise'>blockchain</span> la manera en la que se hacen y mueven las <span class='shadow is-turquoise'>donaciones.</span>",
 		"download-button": "Descarga el whitepaper",
 		"donations": {
 			"title": "Donantes",
@@ -212,7 +212,7 @@
 		"ngos": {
 			"title": "Organizaciones sociales",
 			"subtitle": "Sin ánimo de lucro y constituidas",
-			"paragraph": "En ComGO hemos creado una herramienta para dotar a ONGs de transparecia, eficiencia e impacto.",
+			"paragraph": "Gestiona tu impacto de manera más eficiente y reporta a tus grupos de interés en tiempo real.",
 			"button": "Aloja tu proyecto"
 		}
 	},
@@ -299,7 +299,7 @@
 	},
 	"warning-message": "Bienvenido a ComGo. Durante la crisis del <b>COVID-19</b> hemos puesto a disposición nuestra plataforma para luchar contra la pandemia en <b><a href=\"https://stopcovid.io/discover\" target=\"_blank\">stopcovid.io</a></b>.",
 	"team": {
-		"core-title": "<span class='is-text-highlighted'>Equipo</span> Core",
+		"core-title": "Nuestro <span class='is-text-highlighted'>Equipo</span>",
 		"paragraph": "Un equipo altamente <span class='shadow is-turquoise'>comprometido</span>, y altamente profesional, con el objetivo de tener un impato positivo en el mundo. Estas son las <span class='shadow is-turquoise'>personas</span> detrás de ComGo.",
 		"advisors-title": "Advisors",
 		"core-team": {
@@ -311,17 +311,13 @@
 				"name": "Arancha Martínez",
 				"position": "Directora de Soluciones para ONGs"
 			},
-			"SOFIA": {
-				"name": "Sofia Atienza",
-				"position": "Business Development Lead"
-			},
 			"SANACHIT": {
 				"name": "Sanachit Mehra",
-				"position": "Blockchain Dev Lead"
+				"position": "Chief Technology Officer"
 			},
-			"GONZALO": {
-				"name": "Gonzalo Herradón",
-				"position": "Director de Soluciones Farma"
+			"RAJISH": {
+				"name": "Rajish Rajan",
+				"position": "Director de Soluciones"
 			},
 			"JULIO": {
 				"name": "Julio Sevillano",
@@ -341,13 +337,9 @@
 				"name": "Deborah Soule",
 				"position": "Especialista en Tecnología y Operaciones"
 			},
-			"MARTI": {
-				"name": "Martí Parellada",
-				"position": "Economista UB, Director Independiente, Enagás"
-			},
-			"GREGORIO": {
-				"name": "Gregorio Varela Moreiras",
-				"position": "Profesor de Nutrición y Ciencias Alimentarias, Presidente de la Fundación Española de Nutrición (FEN)"
+			"CLAUDIA": {
+				"name": "Claudia Romo",
+				"position": "Consejo Especial en la UN y fundadora de We are all Humans"
 			},
 			"IGNACIO": {
 				"name": "Ignacio Moreno Pubul",

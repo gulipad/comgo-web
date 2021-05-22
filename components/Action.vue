@@ -13,14 +13,14 @@
             <p class="is-size-5 has-text-weight-light"
             v-html="this.$t('action.paragraph')"></p>
           </div>
-          <div class="button is-medium is-primary hero-button">
+          <!-- <div class="button is-medium is-primary hero-button">
             <a href="https://drive.google.com/open?id=1OVA3rC2KSxqiRRGCUsKlhP30EsBfDDZ_"
             target="_blank"
             class="is-link"
             download>  
             {{$t('action.download-button')}}
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="columns is-spaced">
