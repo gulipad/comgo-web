@@ -18,9 +18,8 @@
 						</div>
 						<div class="navbar-item main-item"
             v-if="origin=='home'">
-							<a href="/#projects"
-                class="is-link has-text-grey"
-                v-smooth-scroll="{duration: 2000, offset: 0}">{{$t('navbar.projects')}}</a>
+							<a href="https://stopcovid.io"
+                class="is-link has-text-grey">{{$t('navbar.projects')}}</a>
 						</div>
             <div class="navbar-item main-item"
             v-if="origin=='home'">

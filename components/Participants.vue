@@ -5,33 +5,50 @@
         <img class="image limit-img-size" src="../static/aef.jpg">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/itwillbe.png">
+        <img class="image limit-img-size" src="../static/ashoka_logo.jpg">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/caritas.jpg">
+        <img class="image limit-img-size" src="../static/blabspain.jpg">
       </div>
       <div class="level-item">
         <img class="image limit-img-size" src="../static/botin.jpg">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/homeless_entrepreneur_logo.png">
+        <img class="image limit-img-size" src="../static/bridgeforbillions.jpg">
       </div>
     </div>
     <div data-aos="fade-up" class="container level">
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/kubuka.png">
+        <img class="image limit-img-size" src="../static/cajanavarra.jpg">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/malta.png">
+        <img class="image limit-img-size" src="../static/cateina.png">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/farmaceuticos_logo.jpg">
+        <img class="image limit-img-size" src="../static/FL_Logo_V_RGB.jpg">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/exit_logo.png">
+        <img class="image limit-img-size" src="../static/Logo_OVF_Positivo.png">
       </div>
       <div class="level-item">
-        <img class="image limit-img-size" src="../static/recover.jpg">
+        <img class="image limit-img-size" src="../static/LOGO_RETINA_CREAS.gif">
+      </div>
+    </div>
+    <div data-aos="fade-up" class="container level">
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/ship2b-logo.jpg">
+      </div>
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/SIN_FONDO.png">
+      </div>
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/UnLtd.png">
+      </div>
+      <div class="level-item">
+        <img class="image limit-img-size" src="../static/until_logo.jpg">
+      </div>
+      <div class="level-item blank_image">
+        <img class="image limit-img-size" src="">
       </div>
     </div>
   </div>
@@ -40,5 +57,9 @@
 <style scoped>
   .limit-img-size {
     max-width: 96px;
+    max-height: 96px;
+  }
+  .blank_image {
+    width: 96px
   }
 </style>
