@@ -99,15 +99,15 @@
     data () {
       return {
         projects: [
-          {
-            title: this.$t('projects.items["ITWILLBE"].title'),
-            owner: this.$t('projects.items["ITWILLBE"].owner'),
-            content: this.$t('projects.items["ITWILLBE"].content'),
-            categoryTag: this.$t('tags.children'),
-            countryTag: this.$t('tags.india'),
-            imgUrl: require('~/static/projects/itwillbe.png'),
-            idProject: 'Project1574433438463'
-          } //,
+          //{
+          //  title: this.$t('projects.items["ITWILLBE"].title'),
+          //  owner: this.$t('projects.items["ITWILLBE"].owner'),
+          //  content: this.$t('projects.items["ITWILLBE"].content'),
+          //  categoryTag: this.$t('tags.children'),
+          //  countryTag: this.$t('tags.india'),
+          //  imgUrl: require('~/static/projects/itwillbe.png'),
+          //  idProject: 'Project1574433438463'
+          //} ,
           // {
           //   title: this.$t('projects.items["CARITAS"].title'),
           //   owner: this.$t('projects.items["CARITAS"].owner'),
